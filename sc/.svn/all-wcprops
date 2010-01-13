@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/supercollider/!svn/ver/9517/trunk/editors/scel/sc
+END
+homeContext.sc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8370/trunk/editors/scel/sc/homeContext.sc
+END
+storeLispOn.sc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/sc/storeLispOn.sc
+END
+EmacsBuffer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/sc/EmacsBuffer.sc
+END
+ScelDocument.sc
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/sc/ScelDocument.sc
+END
+extPlatform.sc
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9517/trunk/editors/scel/sc/extPlatform.sc
+END
+EmacsDocument.sc
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/sc/EmacsDocument.sc
+END
+extString.sc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/sc/extString.sc
+END
+Emacs.sc
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svnroot/supercollider/!svn/ver/9517/trunk/editors/scel/sc/Emacs.sc
+END
+extBuffer.sc
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/sc/extBuffer.sc
+END
+extClassBrowser.sc
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/8370/trunk/editors/scel/sc/extClassBrowser.sc
+END

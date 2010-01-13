@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el
+END
+tree-widget.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/8370/trunk/editors/scel/el/tree-widget.el
+END
+sclang-keys.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-keys.el
+END
+sclang-util.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-util.el
+END
+sclang-document.el
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-document.el
+END
+sclang-dev.el
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svnroot/supercollider/!svn/ver/9038/trunk/editors/scel/el/sclang-dev.el
+END
+sclang-vars.el.in
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-vars.el.in
+END
+sclang-language.el
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-language.el
+END
+sclang-browser.el
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-browser.el
+END
+sclang-mode.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-mode.el
+END
+sclang-help.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-help.el
+END
+sclang-interp.el
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-interp.el
+END
+sclang.el
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang.el
+END
+sclang-menu.el
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-menu.el
+END
+sclang-widgets.el
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-widgets.el
+END
+sclang-server.el
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/supercollider/!svn/ver/9082/trunk/editors/scel/el/sclang-server.el
+END
+sclang-minor-mode.el
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/supercollider/!svn/ver/9417/trunk/editors/scel/el/sclang-minor-mode.el
+END
