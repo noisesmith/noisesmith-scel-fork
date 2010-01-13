@@ -121,9 +121,9 @@
          transform="scale(1.0304734,0.9704278)"
          y="295.2179"
          x="268.61649"><tspan
-           id="tspan3185"
-           y="295.2179"
-           x="268.61649">EmacsBuffer.sc</tspan></text>
+			  id="tspan3185"
+			  y="295.2179"
+			  x="268.61649">EmacsBuffer.sc</tspan></text>
     </g>
     <text
        style="font-size:11.02869701px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -132,9 +132,9 @@
        transform="scale(0.9226491,1.0838356)"
        y="305.09421"
        x="663.45569"><tspan
-         id="tspan11314"
-         y="305.09421"
-         x="663.45569">widget interface</tspan></text>
+			id="tspan11314"
+			y="305.09421"
+			x="663.45569">widget interface</tspan></text>
   </g>
   <g
      id="g11374"
@@ -156,9 +156,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="305.80463"
          x="34.195194"><tspan
-           id="tspan3161"
-           y="305.80463"
-           x="34.195194">Emacs.sc</tspan></text>
+			  id="tspan3161"
+			  y="305.80463"
+			  x="34.195194">Emacs.sc</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -167,12 +167,12 @@
        transform="scale(0.9110158,1.0976758)"
        y="254.67574"
        x="209.1252"><tspan
-         id="tspan11362"
-         y="254.67574"
-         x="209.1252">emacs</tspan><tspan
-         id="tspan11364"
-         y="269.3277"
-         x="209.1252">interaction</tspan></text>
+		       id="tspan11362"
+		       y="254.67574"
+		       x="209.1252">emacs</tspan><tspan
+						    id="tspan11364"
+						    y="269.3277"
+						    x="209.1252">interaction</tspan></text>
   </g>
   <rect
      style="fill:#84bea3;fill-opacity:1;stroke:#000000;stroke-width:0.88297457;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -201,9 +201,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="305.80463"
          x="34.195194"><tspan
-           id="tspan18170"
-           y="305.80463"
-           x="34.195194">sclang-interp.el</tspan></text>
+			  id="tspan18170"
+			  y="305.80463"
+			  x="34.195194">sclang-interp.el</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -212,12 +212,12 @@
        transform="scale(0.9110158,1.0976758)"
        y="254.67574"
        x="323.28336"><tspan
-         id="tspan18174"
-         y="254.67574"
-         x="323.28336">sclang</tspan><tspan
-         id="tspan18176"
-         y="269.3277"
-         x="323.28336">interaction</tspan></text>
+			id="tspan18174"
+			y="254.67574"
+			x="323.28336">sclang</tspan><tspan
+						       id="tspan18176"
+						       y="269.3277"
+						       x="323.28336">interaction</tspan></text>
   </g>
   <g
      id="g11299"
@@ -236,9 +236,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="291.47388"
        x="42.048138"><tspan
-         id="tspan3174"
-         y="291.47388"
-         x="42.048138">EmacsInterface</tspan></text>
+			id="tspan3174"
+			y="291.47388"
+			x="42.048138">EmacsInterface</tspan></text>
   </g>
   <g
      id="g7269"
@@ -257,9 +257,9 @@
        transform="scale(0.8790289,1.137619)"
        y="309.67294"
        x="225.89851"><tspan
-         id="tspan3222"
-         y="309.67294"
-         x="225.89851">handlers</tspan></text>
+			id="tspan3222"
+			y="309.67294"
+			x="225.89851">handlers</tspan></text>
     <text
        style="font-size:2.31709123px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -267,9 +267,9 @@
        transform="scale(0.6475143,1.5443675)"
        y="234.52975"
        x="296.24719"><tspan
-         id="tspan3229"
-         y="234.52975"
-         x="296.24719">IdentityDictionary names / lambdas</tspan></text>
+			id="tspan3229"
+			y="234.52975"
+			x="296.24719">IdentityDictionary names / lambdas</tspan></text>
   </g>
   <g
      id="g11560"
@@ -292,9 +292,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.67444"
        x="53.839302"><tspan
-         id="tspan6667"
-         y="259.67444"
-         x="53.839302">initDefaultHandlers</tspan></text>
+			id="tspan6667"
+			y="259.67444"
+			x="53.839302">initDefaultHandlers</tspan></text>
   </g>
   <g
      id="g7260"
@@ -313,9 +313,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="342.25394"
        x="270.3345"><tspan
-         id="tspan3206"
-         y="342.25394"
-         x="270.3345">performCommand</tspan></text>
+		       id="tspan3206"
+		       y="342.25394"
+		       x="270.3345">performCommand</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -323,15 +323,15 @@
        transform="scale(0.9170184,1.0904907)"
        y="384.68539"
        x="246.72583"><tspan
-         id="tspan7208"
-         y="384.68539"
-         x="246.72583">looks up lambdas in</tspan><tspan
-         id="tspan7210"
-         y="387.78802"
-         x="246.72583">handlers, and performs</tspan><tspan
-         id="tspan7212"
-         y="390.89062"
-         x="246.72583">them</tspan></text>
+			id="tspan7208"
+			y="384.68539"
+			x="246.72583">looks up lambdas in</tspan><tspan
+								    id="tspan7210"
+								    y="387.78802"
+								    x="246.72583">handlers, and performs</tspan><tspan
+														   id="tspan7212"
+														   y="390.89062"
+														   x="246.72583">them</tspan></text>
   </g>
   <g
      id="g19956"
@@ -350,9 +350,9 @@
        transform="scale(0.8902146,1.1233247)"
        y="349.16083"
        x="350.13962"><tspan
-         id="tspan7282"
-         y="349.16083"
-         x="350.13962">Emacs</tspan></text>
+			id="tspan7282"
+			y="349.16083"
+			x="350.13962">Emacs</tspan></text>
   </g>
   <g
      id="g11590"
@@ -371,9 +371,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="310.31857"
        x="167.2859"><tspan
-         id="tspan7293"
-         y="310.31857"
-         x="167.2859">lispPerformCommand</tspan></text>
+		       id="tspan7293"
+		       y="310.31857"
+		       x="167.2859">lispPerformCommand</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -381,18 +381,18 @@
        transform="scale(0.9170184,1.0904907)"
        y="347.85172"
        x="154.86024"><tspan
-         id="tspan7301"
-         y="347.85172"
-         x="154.86024">calls sclang functions</tspan><tspan
-         id="tspan7314"
-         y="350.95435"
-         x="154.86024">on behalf of emacs</tspan><tspan
-         id="tspan8982"
-         y="354.05695"
-         x="154.86024">optionally sends results</tspan><tspan
-         id="tspan8984"
-         y="357.15958"
-         x="154.86024">back to emacs again</tspan></text>
+			id="tspan7301"
+			y="347.85172"
+			x="154.86024">calls sclang functions</tspan><tspan
+								       id="tspan7314"
+								       y="350.95435"
+								       x="154.86024">on behalf of emacs</tspan><tspan
+														  id="tspan8982"
+														  y="354.05695"
+														  x="154.86024">optionally sends results</tspan><tspan
+																				   id="tspan8984"
+																				   y="357.15958"
+																				   x="154.86024">back to emacs again</tspan></text>
   </g>
   <g
      id="g11574"
@@ -411,9 +411,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="353.70447"
        x="54.398933"><tspan
-         id="tspan7859"
-         y="353.70447"
-         x="54.398933">initClass</tspan></text>
+			id="tspan7859"
+			y="353.70447"
+			x="54.398933">initClass</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -421,12 +421,12 @@
        transform="scale(0.9170184,1.0904907)"
        y="397.18942"
        x="49.882622"><tspan
-         id="tspan7865"
-         y="397.18942"
-         x="49.882622">creates connection to emacs</tspan><tspan
-         id="tspan7875"
-         y="400.29205"
-         x="49.882622">and starts servers etc.</tspan></text>
+			id="tspan7865"
+			y="397.18942"
+			x="49.882622">creates connection to emacs</tspan><tspan
+									    id="tspan7875"
+									    y="400.29205"
+									    x="49.882622">and starts servers etc.</tspan></text>
   </g>
   <g
      id="g8442"
@@ -445,9 +445,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="344.19525"
        x="144.96605"><tspan
-         id="tspan8422"
-         y="344.19525"
-         x="144.96605">sendToLisp</tspan></text>
+			id="tspan8422"
+			y="344.19525"
+			x="144.96605">sendToLisp</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -455,19 +455,20 @@
        transform="scale(0.9170184,1.0904907)"
        y="386.16998"
        x="131.88205"><tspan
-         id="tspan8428"
-         y="386.16998"
-         x="131.88205">lsends code to emacs,</tspan><tspan
-         id="tspan8438"
-         y="389.27261"
-         x="131.88205">optionally sets a hook for</tspan><tspan
-         id="tspan8440"
-         y="392.37521"
-         x="131.88205">the reply</tspan></text>
+			id="tspan8428"
+			y="386.16998"
+			x="131.88205">lsends code to emacs,</tspan><tspan
+								      id="tspan8438"
+								      y="389.27261"
+								      x="131.88205">optionally sets a hook for</tspan><tspan
+															 id="tspan8440"
+															 y="392.37521"
+															 x="131.88205">the reply</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69946688;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path8453"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g8442"
      inkscape:connection-start="#g11590"
      d="M 403.89675,466.34618 L 314.82135,463.56881" />
@@ -491,9 +492,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="306.29095"
          x="34.321915"><tspan
-           id="tspan18903"
-           y="306.29095"
-           x="34.321915">sclang-server.el</tspan></text>
+			  id="tspan18903"
+			  y="306.29095"
+			  x="34.321915">sclang-server.el</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -502,12 +503,12 @@
        transform="scale(0.9110158,1.0976758)"
        y="254.67574"
        x="366.04544"><tspan
-         id="tspan18907"
-         y="254.67574"
-         x="366.04544">server</tspan><tspan
-         id="tspan18909"
-         y="269.3277"
-         x="366.04544">status</tspan></text>
+			id="tspan18907"
+			y="254.67574"
+			x="366.04544">server</tspan><tspan
+						       id="tspan18909"
+						       y="269.3277"
+						       x="366.04544">status</tspan></text>
   </g>
   <g
      id="g9010"
@@ -526,9 +527,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.13937"
        x="103.37481"><tspan
-         id="tspan8992"
-         y="475.13937"
-         x="103.37481">_updateServer</tspan></text>
+			id="tspan8992"
+			y="475.13937"
+			x="103.37481">_updateServer</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -536,12 +537,12 @@
        transform="scale(0.9170184,1.0904907)"
        y="531.0238"
        x="86.720093"><tspan
-         id="tspan8998"
-         y="531.0238"
-         x="86.720093">receives updates about the</tspan><tspan
-         id="tspan9008"
-         y="534.1264"
-         x="86.720093">supercollider synth server</tspan></text>
+			id="tspan8998"
+			y="531.0238"
+			x="86.720093">receives updates about the</tspan><tspan
+									   id="tspan9008"
+									   y="534.1264"
+									   x="86.720093">supercollider synth server</tspan></text>
   </g>
   <g
      id="g11582"
@@ -560,9 +561,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="309.32196"
        x="109.16232"><tspan
-         id="tspan9024"
-         y="309.32196"
-         x="109.16232">updateServer</tspan></text>
+			id="tspan9024"
+			y="309.32196"
+			x="109.16232">updateServer</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -570,12 +571,12 @@
        transform="scale(0.9170184,1.0904907)"
        y="348.27518"
        x="99.572311"><tspan
-         id="tspan9028"
-         y="348.27518"
-         x="99.572311">sends updates about the</tspan><tspan
-         id="tspan9030"
-         y="351.37781"
-         x="99.572311">supercollider synth server</tspan></text>
+			id="tspan9028"
+			y="348.27518"
+			x="99.572311">sends updates about the</tspan><tspan
+									id="tspan9030"
+									y="351.37781"
+									x="99.572311">supercollider synth server</tspan></text>
   </g>
   <g
      id="g11566"
@@ -594,9 +595,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="322.69434"
        x="50.787304"><tspan
-         id="tspan9084"
-         y="322.69434"
-         x="50.787304">message</tspan></text>
+			id="tspan9084"
+			y="322.69434"
+			x="50.787304">message</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -604,22 +605,24 @@
        transform="scale(0.9170184,1.0904907)"
        y="363.01297"
        x="46.605618"><tspan
-         id="tspan9090"
-         y="363.01297"
-         x="46.605618">makes emacs display a</tspan><tspan
-         id="tspan9100"
-         y="366.1156"
-         x="46.605618">message in the display area</tspan></text>
+			id="tspan9090"
+			y="363.01297"
+			x="46.605618">makes emacs display a</tspan><tspan
+								      id="tspan9100"
+								      y="366.1156"
+								      x="46.605618">message in the display area</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path9114"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g8442"
      inkscape:connection-start="#g11582"
      d="M 124.49981,466.87353 L 289.48213,463.43763" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path10172"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g8442"
      inkscape:connection-start="#g11574"
      d="M 252.98771,389.32469 L 296.33768,454.4405" />
@@ -640,9 +643,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="350.4357"
        x="252.70229"><tspan
-         id="tspan11257"
-         y="350.4357"
-         x="252.70229">evalLispExpression</tspan></text>
+			id="tspan11257"
+			y="350.4357"
+			x="252.70229">evalLispExpression</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -650,22 +653,24 @@
        transform="scale(0.9170184,1.0904907)"
        y="393.04764"
        x="229.63676"><tspan
-         id="tspan11265"
-         y="393.04764"
-         x="229.63676">lmakes emacs evaluate</tspan><tspan
-         id="tspan11271"
-         y="396.15027"
-         x="229.63676">arbitrary code</tspan></text>
+			id="tspan11265"
+			y="393.04764"
+			x="229.63676">lmakes emacs evaluate</tspan><tspan
+								      id="tspan11271"
+								      y="396.15027"
+								      x="229.63676">arbitrary code</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path9643"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11620"
      inkscape:connection-start="#g11566"
      d="M 403.42624,374.10323 L 428.98583,374.34713" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69953901;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path11273"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g8442"
      inkscape:connection-start="#g11620"
      d="M 428.98583,382.52421 L 314.82135,455.11759" />
@@ -686,9 +691,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="344.19525"
        x="144.96605"><tspan
-         id="tspan11283"
-         y="344.19525"
-         x="144.96605">readFileName</tspan></text>
+			id="tspan11283"
+			y="344.19525"
+			x="144.96605">readFileName</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -696,16 +701,17 @@
        transform="scale(0.9170184,1.0904907)"
        y="386.16998"
        x="131.88205"><tspan
-         id="tspan11289"
-         y="386.16998"
-         x="131.88205">has emacs prompt for</tspan><tspan
-         id="tspan11293"
-         y="389.27261"
-         x="131.88205">a file name from user</tspan></text>
+			id="tspan11289"
+			y="386.16998"
+			x="131.88205">has emacs prompt for</tspan><tspan
+								     id="tspan11293"
+								     y="389.27261"
+								     x="131.88205">a file name from user</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.69946688;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path11295"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11620"
      inkscape:connection-start="#g11277"
      d="M 428.29683,398.82766 L 436.8662,383.20129" />
@@ -726,9 +732,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="292.36041"
        x="284.62045"><tspan
-         id="tspan11310"
-         y="292.36041"
-         x="284.62045">EmacsBuffer</tspan></text>
+			id="tspan11310"
+			y="292.36041"
+			x="284.62045">EmacsBuffer</tspan></text>
   </g>
   <g
      id="g11334"
@@ -747,9 +753,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="381.31815"
        x="290.47052"><tspan
-         id="tspan11322"
-         y="381.31815"
-         x="290.47052">EmacsWidget</tspan></text>
+			id="tspan11322"
+			y="381.31815"
+			x="290.47052">EmacsWidget</tspan></text>
   </g>
   <g
      id="g11405"
@@ -771,9 +777,9 @@
          transform="scale(1.0073055,0.9927475)"
          y="69.853958"
          x="31.536106"><tspan
-           id="tspan11372"
-           y="69.853958"
-           x="31.536106">EmacsDocument.sc</tspan></text>
+			  id="tspan11372"
+			  y="69.853958"
+			  x="31.536106">EmacsDocument.sc</tspan></text>
     </g>
     <text
        style="font-size:11.23746681px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -782,12 +788,12 @@
        transform="scale(1.064883,0.9390703)"
        y="60.924389"
        x="246.19243"><tspan
-         id="tspan11401"
-         y="60.924389"
-         x="246.19243">document</tspan><tspan
-         id="tspan11403"
-         y="74.971222"
-         x="246.19243">abstraction</tspan></text>
+			id="tspan11401"
+			y="60.924389"
+			x="246.19243">document</tspan><tspan
+							 id="tspan11403"
+							 y="74.971222"
+							 x="246.19243">abstraction</tspan></text>
   </g>
   <g
      id="g11391"
@@ -806,9 +812,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="290.76312"
        x="100.91437"><tspan
-         id="tspan11397"
-         y="290.76312"
-         x="100.91437">EmacsDocument</tspan></text>
+			id="tspan11397"
+			y="290.76312"
+			x="100.91437">EmacsDocument</tspan></text>
   </g>
   <g
      id="g11414"
@@ -830,9 +836,9 @@
          transform="scale(1.0073055,0.9927475)"
          y="69.853958"
          x="31.536106"><tspan
-           id="tspan11422"
-           y="69.853958"
-           x="31.536106">ScelDocument.sc</tspan></text>
+			  id="tspan11422"
+			  y="69.853958"
+			  x="31.536106">ScelDocument.sc</tspan></text>
     </g>
     <text
        style="font-size:11.23746681px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -841,12 +847,12 @@
        transform="scale(1.064883,0.9390703)"
        y="60.924389"
        x="246.19243"><tspan
-         id="tspan11426"
-         y="60.924389"
-         x="246.19243">document</tspan><tspan
-         id="tspan11428"
-         y="74.971222"
-         x="246.19243">abstraction</tspan></text>
+			id="tspan11426"
+			y="60.924389"
+			x="246.19243">document</tspan><tspan
+							 id="tspan11428"
+							 y="74.971222"
+							 x="246.19243">abstraction</tspan></text>
   </g>
   <g
      id="g11430"
@@ -865,9 +871,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="291.47388"
        x="42.048138"><tspan
-         id="tspan11436"
-         y="291.47388"
-         x="42.048138">ScelDocument</tspan></text>
+			id="tspan11436"
+			y="291.47388"
+			x="42.048138">ScelDocument</tspan></text>
   </g>
   <g
      id="g18194"
@@ -886,9 +892,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="198.17445"
        x="368.36136"><tspan
-         id="tspan11444"
-         y="198.17445"
-         x="368.36136">initClass</tspan></text>
+			id="tspan11444"
+			y="198.17445"
+			x="368.36136">initClass</tspan></text>
     <text
        style="font-size:2.13661432px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -896,12 +902,12 @@
        transform="scale(0.9170184,1.0904907)"
        y="224.75296"
        x="334.68439"><tspan
-         id="tspan11450"
-         y="224.75296"
-         x="334.68439">initialises EmacsInterface and</tspan><tspan
-         id="tspan11454"
-         y="227.42372"
-         x="334.68439">ScelDocument</tspan></text>
+			id="tspan11450"
+			y="224.75296"
+			x="334.68439">initialises EmacsInterface and</tspan><tspan
+									       id="tspan11454"
+									       y="227.42372"
+									       x="334.68439">ScelDocument</tspan></text>
   </g>
   <g
      id="g11464"
@@ -920,9 +926,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="292.36041"
        x="284.62045"><tspan
-         id="tspan11470"
-         y="292.36041"
-         x="284.62045">OscResponder</tspan></text>
+			id="tspan11470"
+			y="292.36041"
+			x="284.62045">OscResponder</tspan></text>
   </g>
   <g
      id="g11472"
@@ -941,9 +947,9 @@
        transform="scale(0.9767911,1.0237603)"
        y="321.38257"
        x="341.87729"><tspan
-         id="tspan11478"
-         y="321.38257"
-         x="341.87729">Server</tspan></text>
+			id="tspan11478"
+			y="321.38257"
+			x="341.87729">Server</tspan></text>
   </g>
   <g
      id="g11528"
@@ -962,9 +968,9 @@
        transform="scale(0.7566812,1.3215606)"
        y="312.2709"
        x="156.92467"><tspan
-         id="tspan11534"
-         y="312.2709"
-         x="156.92467">lispHandleCommandResult</tspan></text>
+			id="tspan11534"
+			y="312.2709"
+			x="156.92467">lispHandleCommandResult</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -972,15 +978,15 @@
        transform="scale(0.9170184,1.0904907)"
        y="386.16998"
        x="131.88205"><tspan
-         id="tspan11540"
-         y="386.16998"
-         x="131.88205">calls and then deallocates</tspan><tspan
-         id="tspan11614"
-         y="389.27261"
-         x="131.88205">callback handlers for asynch</tspan><tspan
-         id="tspan11616"
-         y="392.37521"
-         x="131.88205">calls to emacs</tspan></text>
+			id="tspan11540"
+			y="386.16998"
+			x="131.88205">calls and then deallocates</tspan><tspan
+									   id="tspan11614"
+									   y="389.27261"
+									   x="131.88205">callback handlers for asynch</tspan><tspan
+																id="tspan11616"
+																y="392.37521"
+																x="131.88205">calls to emacs</tspan></text>
   </g>
   <g
      id="g11600"
@@ -999,9 +1005,9 @@
        transform="scale(0.8790289,1.137619)"
        y="308.23605"
        x="218.56963"><tspan
-         id="tspan11606"
-         y="308.23605"
-         x="218.56963">requestHandlers</tspan></text>
+			id="tspan11606"
+			y="308.23605"
+			x="218.56963">requestHandlers</tspan></text>
     <text
        style="font-size:2.31709123px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1009,13 +1015,14 @@
        transform="scale(0.6475143,1.5443675)"
        y="234.52975"
        x="296.24719"><tspan
-         id="tspan11610"
-         y="234.52975"
-         x="296.24719">IdentityDictionary names / lambdas</tspan></text>
+			id="tspan11610"
+			y="234.52975"
+			x="296.24719">IdentityDictionary names / lambdas</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path11628"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11600"
      inkscape:connection-start="#g11574"
      d="M 234.50405,389.2745 L 202.3608,411.30376" />
@@ -1040,9 +1047,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.46417"
        x="54.526676"><tspan
-         id="tspan11638"
-         y="259.46417"
-         x="54.526676">put</tspan></text>
+			id="tspan11638"
+			y="259.46417"
+			x="54.526676">put</tspan></text>
   </g>
   <g
      id="g11652"
@@ -1065,9 +1072,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.46417"
        x="56.93248"><tspan
-         id="tspan11660"
-         y="259.46417"
-         x="56.93248">at</tspan></text>
+		       id="tspan11660"
+		       y="259.46417"
+		       x="56.93248">at</tspan></text>
   </g>
   <g
      id="g11664"
@@ -1090,13 +1097,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="260.30521"
        x="62.43145"><tspan
-         id="tspan11672"
-         y="260.30521"
-         x="62.43145">initClass</tspan></text>
+		       id="tspan11672"
+		       y="260.30521"
+		       x="62.43145">initClass</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path11676"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11560"
      inkscape:connection-start="#g11664"
      d="M 522.37194,456.9725 L 525.76393,456.84675" />
@@ -1121,13 +1129,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.67444"
        x="53.839302"><tspan
-         id="tspan11686"
-         y="259.67444"
-         x="53.839302">makeSubListSorter</tspan></text>
+			id="tspan11686"
+			y="259.67444"
+			x="53.839302">makeSubListSorter</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.7394861;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path11688"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19642"
      inkscape:connection-start="#g11560"
      d="M 545.80588,454.75071 L 550.17386,453.99902" />
@@ -1135,23 +1144,23 @@
      style="font-size:2.9511044px;font-style:normal;font-weight:normal;fill:#44e145;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text11692"><textPath
-       xlink:href="#path3486"
-       id="textPath4804"><tspan
-   style="fill:#44e145;fill-opacity:1"
-   id="tspan11694">&quot;Emacs: Initializing lisp interface.&quot;.postln</tspan></textPath></text>
+		       xlink:href="#path3486"
+		       id="textPath4804"><tspan
+					    style="fill:#44e145;fill-opacity:1"
+					    id="tspan11694">&quot;Emacs: Initializing lisp interface.&quot;.postln</tspan></textPath></text>
   <text
      style="font-size:4.84577227px;font-style:normal;font-weight:normal;fill:#ae1a59;fill-opacity:1;stroke:none;stroke-width:0.62118614;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text11699"
      transform="translate(9.8702532,12.003165)"><textPath
-       id="textPath19963"
-       xlink:href="#path10172">\_init</textPath></text>
+						   id="textPath19963"
+						   xlink:href="#path10172">\_init</textPath></text>
   <text
      style="font-size:2.9511044px;font-style:normal;font-weight:normal;fill:#44e145;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text11707"><textPath
-       xlink:href="#path4809"
-       id="textPath4811">str.size ; [cmd.asSymbol, obj, id].asLispString</textPath></text>
+		       xlink:href="#path4809"
+		       id="textPath4811">str.size ; [cmd.asSymbol, obj, id].asLispString</textPath></text>
   <g
      id="g11716"
      transform="matrix(0.6858222,0,0,0.6858222,184.45331,212.79155)">
@@ -1173,13 +1182,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.46417"
        x="54.526676"><tspan
-         id="tspan11724"
-         y="259.46417"
-         x="54.526676">put</tspan></text>
+			id="tspan11724"
+			y="259.46417"
+			x="54.526676">put</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path11726"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11600"
      inkscape:connection-start="#g11716"
      d="M 212.7413,436.04418 L 201.94463,426.64108" />
@@ -1204,25 +1214,28 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.46417"
        x="56.93248"><tspan
-         id="tspan11736"
-         y="259.46417"
-         x="56.93248">at</tspan></text>
+		       id="tspan11736"
+		       y="259.46417"
+		       x="56.93248">at</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path11738"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11728"
      inkscape:connection-start="#g11600"
      d="M 195.89822,426.64108 L 201.39138,439.40396" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path11740"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11716"
      inkscape:connection-start="#g8442"
      d="M 289.48213,459.62834 L 219.87799,440.1505" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path11742"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g11728"
      inkscape:connection-start="#g11528"
      d="M 198.48318,468.32792 L 202.3805,447.5507" />
@@ -1231,8 +1244,8 @@
      xml:space="preserve"
      id="text14906"
      transform="matrix(-0.9983875,-5.6766719e-2,5.6766719e-2,-0.9983875,779.33994,828.3725)"><textPath
-       id="textPath19969"
-       xlink:href="#path11273">_eval</textPath></text>
+												id="textPath19969"
+												xlink:href="#path11273">_eval</textPath></text>
   <g
      id="g14914"
      transform="matrix(0.490838,0,0,0.490838,433.27036,278.58605)">
@@ -1250,9 +1263,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.91568"
        x="97.905472"><tspan
-         id="tspan14920"
-         y="474.91568"
-         x="97.905472">sclang-eval-string</tspan></text>
+			id="tspan14920"
+			y="474.91568"
+			x="97.905472">sclang-eval-string</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1260,9 +1273,9 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="90.237808"><tspan
-         id="tspan14930"
-         y="532.25635"
-         x="90.237808">sends sclang code to sc</tspan></text>
+			id="tspan14930"
+			y="532.25635"
+			x="90.237808">sends sclang code to sc</tspan></text>
   </g>
   <g
      id="g14934"
@@ -1281,9 +1294,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.91568"
        x="105.11648"><tspan
-         id="tspan14940"
-         y="474.91568"
-         x="105.11648">sclang-format</tspan></text>
+			id="tspan14940"
+			y="474.91568"
+			x="105.11648">sclang-format</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1291,9 +1304,9 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="88.056831"><tspan
-         id="tspan14944"
-         y="532.25635"
-         x="88.056831">creates strings to eval in sc</tspan></text>
+			id="tspan14944"
+			y="532.25635"
+			x="88.056831">creates strings to eval in sc</tspan></text>
   </g>
   <g
      id="g14950"
@@ -1312,9 +1325,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan14956"
-         y="474.46832"
-         x="96.070381">sclang-handle-command-result</tspan></text>
+			id="tspan14956"
+			y="474.46832"
+			x="96.070381">sclang-handle-command-result</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1322,19 +1335,21 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="88.056831"><tspan
-         id="tspan14960"
-         y="532.25635"
-         x="88.056831">sends data back that sclang requested</tspan></text>
+			id="tspan14960"
+			y="532.25635"
+			x="88.056831">sends data back that sclang requested</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.6324957;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path14962"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14934"
      inkscape:connection-start="#g14950"
      d="M 410.43729,576.32951 L 447.36303,575.61401" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.86081159;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:0.86081156, 3.44324623;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path14964"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14950"
      inkscape:connection-start="#g11528"
      d="M 209.51464,483.33497 L 385.17713,570.32003" />
@@ -1355,9 +1370,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan14974"
-         y="474.46832"
-         x="96.070381">sclang-perform-command-no-result</tspan></text>
+			id="tspan14974"
+			y="474.46832"
+			x="96.070381">sclang-perform-command-no-result</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1365,25 +1380,28 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="94.599785"><tspan
-         id="tspan14978"
-         y="532.25635"
-         x="94.599785">calls a command handler in sc</tspan></text>
+			id="tspan14978"
+			y="532.25635"
+			x="94.599785">calls a command handler in sc</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.86081159;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.86081156, 3.44324623;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path9112"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g9010"
      inkscape:connection-start="#g11582"
      d="M 111.8044,475.87065 L 110.94348,767.22576" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.86081159;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);stroke-miterlimit:4;stroke-dasharray:0.86081156, 3.44324623;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path14980"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14968"
      inkscape:connection-start="#g11590"
      d="M 421.07392,475.47448 L 491.77163,612.44931" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.6324957;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path14982"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14934"
      inkscape:connection-start="#g14968"
      d="M 489.46033,612.44931 L 462.00857,581.68865" />
@@ -1404,9 +1422,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan14990"
-         y="474.46832"
-         x="96.070381">sclang-perform-command</tspan></text>
+			id="tspan14990"
+			y="474.46832"
+			x="96.070381">sclang-perform-command</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1414,13 +1432,14 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="90.237839"><tspan
-         id="tspan14994"
-         y="532.25635"
-         x="90.237839">calls a command handler in sc</tspan></text>
+			id="tspan14994"
+			y="532.25635"
+			x="90.237839">calls a command handler in sc</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.6324957;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path14998"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14934"
      inkscape:connection-start="#g14984"
      d="M 456.28796,610.05432 L 456.40483,581.68865" />
@@ -1430,45 +1449,45 @@
      id="text18186"
      y="51.439739"
      x="28.350914"><tspan
-       id="tspan18188"
-       y="51.439739"
-       x="28.350914">SuperCollider</tspan></text>
+		      id="tspan18188"
+		      y="51.439739"
+		      x="28.350914">SuperCollider</tspan></text>
   <text
      style="font-size:40px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text18190"
      y="1010.4897"
      x="572.82806"><tspan
-       id="tspan18192"
-       y="1010.4897"
-       x="572.82806">emacs</tspan></text>
+		      id="tspan18192"
+		      y="1010.4897"
+		      x="572.82806">emacs</tspan></text>
   <text
      style="font-size:3.97057915px;font-style:normal;font-weight:normal;fill:#d11a4c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text18202"
      y="351.63544"
      x="21.967146"><tspan
-       id="tspan18204"
-       y="351.63544"
-       x="21.967146">EmacsInterface is</tspan><tspan
-       id="tspan18206"
-       y="356.59866"
-       x="21.967146">being initialized twice,</tspan><tspan
-       id="tspan18208"
-       y="361.56189"
-       x="21.967146">once by EmacsDocument</tspan><tspan
-       id="tspan18210"
-       y="366.52512"
-       x="21.967146">and once by Emacs</tspan><tspan
-       id="tspan19678"
-       y="371.48834"
-       x="21.967146" /><tspan
-       id="tspan19680"
-       y="376.45157"
-       x="21.967146">EmacsInterface.at seems</tspan><tspan
-       id="tspan19682"
-       y="381.41479"
-       x="21.967146">to be unused</tspan></text>
+		      id="tspan18204"
+		      y="351.63544"
+		      x="21.967146">EmacsInterface is</tspan><tspan
+								id="tspan18206"
+								y="356.59866"
+								x="21.967146">being initialized twice,</tspan><tspan
+														 id="tspan18208"
+														 y="361.56189"
+														 x="21.967146">once by EmacsDocument</tspan><tspan
+																			       id="tspan18210"
+																			       y="366.52512"
+																			       x="21.967146">and once by Emacs</tspan><tspan
+																									 id="tspan19678"
+																									 y="371.48834"
+																									 x="21.967146" /><tspan
+																											    id="tspan19680"
+																											    y="376.45157"
+																											    x="21.967146">EmacsInterface.at seems</tspan><tspan
+																																	    id="tspan19682"
+																																	    y="381.41479"
+																																	    x="21.967146">to be unused</tspan></text>
   <g
      id="g18741"
      transform="matrix(0.6858222,0,0,0.6858222,217.14516,8.2842652)">
@@ -1486,9 +1505,9 @@
        transform="scale(0.8790289,1.137619)"
        y="309.67294"
        x="220.61226"><tspan
-         id="tspan18747"
-         y="309.67294"
-         x="220.61226">DocumentMap</tspan></text>
+			id="tspan18747"
+			y="309.67294"
+			x="220.61226">DocumentMap</tspan></text>
     <text
        style="font-size:1.94263554px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1496,9 +1515,9 @@
        transform="scale(0.8132426,1.2296453)"
        y="291.01257"
        x="236.54082"><tspan
-         id="tspan18751"
-         y="291.01257"
-         x="236.54082">IdentityDictionary of documents</tspan></text>
+			id="tspan18751"
+			y="291.01257"
+			x="236.54082">IdentityDictionary of documents</tspan></text>
   </g>
   <g
      id="g18763"
@@ -1520,9 +1539,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="305.80463"
          x="34.195194"><tspan
-           id="tspan18771"
-           y="305.80463"
-           x="34.195194">sclang-mode.el</tspan></text>
+			  id="tspan18771"
+			  y="305.80463"
+			  x="34.195194">sclang-mode.el</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -1531,12 +1550,12 @@
        transform="scale(0.9110158,1.0976758)"
        y="254.67574"
        x="323.28336"><tspan
-         id="tspan18775"
-         y="254.67574"
-         x="323.28336">sclang</tspan><tspan
-         id="tspan18777"
-         y="269.3277"
-         x="323.28336">interaction</tspan></text>
+			id="tspan18775"
+			y="254.67574"
+			x="323.28336">sclang</tspan><tspan
+						       id="tspan18777"
+						       y="269.3277"
+						       x="323.28336">interaction</tspan></text>
   </g>
   <g
      id="g18779"
@@ -1555,9 +1574,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.13937"
        x="94.997803"><tspan
-         id="tspan18785"
-         y="475.13937"
-         x="94.997803">sclang-make-document</tspan></text>
+			id="tspan18785"
+			y="475.13937"
+			x="94.997803">sclang-make-document</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1565,12 +1584,12 @@
        transform="scale(0.9170184,1.0904907)"
        y="531.0238"
        x="86.720093"><tspan
-         id="tspan18791"
-         y="531.0238"
-         x="86.720093">creates an EmacsDocument in</tspan><tspan
-         id="tspan18795"
-         y="534.1264"
-         x="86.720093">sclang</tspan></text>
+			id="tspan18791"
+			y="531.0238"
+			x="86.720093">creates an EmacsDocument in</tspan><tspan
+									    id="tspan18795"
+									    y="534.1264"
+									    x="86.720093">sclang</tspan></text>
   </g>
   <g
      id="g18799"
@@ -1589,9 +1608,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan18805"
-         y="474.46832"
-         x="96.070381">sclang-mode</tspan></text>
+			id="tspan18805"
+			y="474.46832"
+			x="96.070381">sclang-mode</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1599,9 +1618,9 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="88.056831"><tspan
-         id="tspan18809"
-         y="532.25635"
-         x="88.056831">initializes sclang-mode for a buffer</tspan></text>
+			id="tspan18809"
+			y="532.25635"
+			x="88.056831">initializes sclang-mode for a buffer</tspan></text>
   </g>
   <g
      id="g18811"
@@ -1623,9 +1642,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="306.29095"
          x="34.321915"><tspan
-           id="tspan18819"
-           y="306.29095"
-           x="34.321915">sclang-minor-mode.el</tspan></text>
+			  id="tspan18819"
+			  y="306.29095"
+			  x="34.321915">sclang-minor-mode.el</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -1634,16 +1653,17 @@
        transform="scale(0.9110158,1.0976758)"
        y="254.67574"
        x="366.04544"><tspan
-         id="tspan18823"
-         y="254.67574"
-         x="366.04544">sclang</tspan><tspan
-         id="tspan18825"
-         y="269.3277"
-         x="366.04544">interaction</tspan></text>
+			id="tspan18823"
+			y="254.67574"
+			x="366.04544">sclang</tspan><tspan
+						       id="tspan18825"
+						       y="269.3277"
+						       x="366.04544">interaction</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18827"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18779"
      inkscape:connection-start="#g18829"
      d="M 662.09684,786.43727 L 514.64275,655.44475" />
@@ -1664,9 +1684,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan18835"
-         y="474.46832"
-         x="96.070381">sclang-minor-mode</tspan></text>
+			id="tspan18835"
+			y="474.46832"
+			x="96.070381">sclang-minor-mode</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1674,13 +1694,14 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="88.056831"><tspan
-         id="tspan18839"
-         y="532.25635"
-         x="88.056831">initializes sclang-mode for a buffer</tspan></text>
+			id="tspan18839"
+			y="532.25635"
+			x="88.056831">initializes sclang-mode for a buffer</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18841"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18779"
      inkscape:connection-start="#g18843"
      d="M 448.74732,931.8692 L 506.1425,655.44475" />
@@ -1701,9 +1722,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan18849"
-         y="474.46832"
-         x="96.070381">sclang-library-startup-hook-function</tspan></text>
+			id="tspan18849"
+			y="474.46832"
+			x="96.070381">sclang-library-startup-hook-function</tspan></text>
   </g>
   <g
      id="g18855"
@@ -1722,19 +1743,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan18861"
-         y="474.46832"
-         x="96.070381">sclang-set-current-document</tspan></text>
+			id="tspan18861"
+			y="474.46832"
+			x="96.070381">sclang-set-current-document</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18863"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18855"
      inkscape:connection-start="#g18843"
      d="M 438.96111,941.14744 L 408.59449,957.11421" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18865"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14968"
      inkscape:connection-start="#g18779"
      d="M 504.8464,642.69407 L 497.46593,624.73382" />
@@ -1755,9 +1778,9 @@
        transform="scale(0.8790289,1.137619)"
        y="308.23605"
        x="218.56963"><tspan
-         id="tspan18873"
-         y="308.23605"
-         x="218.56963">sclang-command-handler</tspan></text>
+			id="tspan18873"
+			y="308.23605"
+			x="218.56963">sclang-command-handler</tspan></text>
     <text
        style="font-size:2.31709123px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1765,13 +1788,14 @@
        transform="scale(0.6475143,1.5443675)"
        y="234.52975"
        x="296.24719"><tspan
-         id="tspan18877"
-         y="234.52975"
-         x="296.24719">IdentityDictionary names / lambdas</tspan></text>
+			id="tspan18877"
+			y="234.52975"
+			x="296.24719">IdentityDictionary names / lambdas</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96669143;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.96669138, 0.96669138;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18879"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18867"
      inkscape:connection-start="#g18881"
      d="M 458.02516,692.52556 L 478.26883,685.04795" />
@@ -1792,9 +1816,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan18887"
-         y="474.46832"
-         x="96.070381">sclang-set-command-handler</tspan></text>
+			id="tspan18887"
+			y="474.46832"
+			x="96.070381">sclang-set-command-handler</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -1802,13 +1826,14 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="90.237839"><tspan
-         id="tspan18891"
-         y="532.25635"
-         x="90.237839">calls a command handler in sc</tspan></text>
+			id="tspan18891"
+			y="532.25635"
+			x="90.237839">calls a command handler in sc</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92799997;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.856, 0.928, 0.464, 0.928;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18893"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18881"
      inkscape:connection-start="#g9010"
      d="M 126.81338,773.96266 L 445.46477,689.30818" />
@@ -1829,13 +1854,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="353.70447"
        x="57.191269"><tspan
-         id="tspan18917"
-         y="353.70447"
-         x="57.191269">loadtime</tspan></text>
+			id="tspan18917"
+			y="353.70447"
+			x="57.191269">loadtime</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92799997;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18925"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g9010"
      inkscape:connection-start="#g18911"
      d="M 111.82137,805.84133 L 111.27191,789.14893" />
@@ -1860,9 +1886,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="320.56613"
        x="45.537674"><tspan
-         id="tspan18935"
-         y="320.56613"
-         x="45.537674">addToList</tspan></text>
+			id="tspan18935"
+			y="320.56613"
+			x="45.537674">addToList</tspan></text>
   </g>
   <g
      id="g18937"
@@ -1885,9 +1911,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="318.29825"
        x="44.887421"><tspan
-         id="tspan18945"
-         y="318.29825"
-         x="44.887421">prAdd</tspan></text>
+			id="tspan18945"
+			y="318.29825"
+			x="44.887421">prAdd</tspan></text>
   </g>
   <g
      id="g18951"
@@ -1910,13 +1936,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.45959"
        x="58.405041"><tspan
-         id="tspan18959"
-         y="259.45959"
-         x="58.405041">prInitFromLisp</tspan></text>
+			id="tspan18959"
+			y="259.45959"
+			x="58.405041">prInitFromLisp</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73948616;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18961"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18937"
      inkscape:connection-start="#g18951"
      d="M 380.20454,223.32674 L 384.57485,223.25112" />
@@ -1937,22 +1964,23 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.13937"
        x="100.58247"><tspan
-         id="tspan18969"
-         y="475.13937"
-         x="100.58247">\documentNew</tspan><tspan
-         id="tspan19636"
-         y="479.76077"
-         x="100.58247">\documentClosed</tspan><tspan
-         id="tspan19638"
-         y="484.38217"
-         x="100.58247">\documentSetCurrent</tspan><tspan
-         id="tspan19640"
-         y="489.00357"
-         x="100.58247">\documentSetProperty</tspan></text>
+			id="tspan18969"
+			y="475.13937"
+			x="100.58247">\documentNew</tspan><tspan
+							     id="tspan19636"
+							     y="479.76077"
+							     x="100.58247">\documentClosed</tspan><tspan
+												     id="tspan19638"
+												     y="484.38217"
+												     x="100.58247">\documentSetCurrent</tspan><tspan
+																		 id="tspan19640"
+																		 y="489.00357"
+																		 x="100.58247">\documentSetProperty</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18761"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18741"
      inkscape:connection-start="#g18194"
      d="M 346.07542,271.23284 L 354.57694,256.85024" />
@@ -1961,8 +1989,8 @@
      xml:space="preserve"
      id="text18755"
      transform="matrix(0.796716,0,0,0.796716,71.541255,120.75538)"><textPath
-       id="textPath18759"
-       xlink:href="#path18753">(sclang-make-document)</textPath></text>
+								      id="textPath18759"
+								      xlink:href="#path18753">(sclang-make-document)</textPath></text>
   <g
      id="g19015"
      transform="matrix(0.6858222,0,0,0.6858222,284.2396,7.3712842)">
@@ -1984,31 +2012,35 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.67444"
        x="59.780266"><tspan
-         id="tspan19023"
-         y="259.67444"
-         x="59.780266">documentDo</tspan></text>
+			id="tspan19023"
+			y="259.67444"
+			x="59.780266">documentDo</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19025"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19015"
      inkscape:connection-start="#g18741"
      d="M 347.70104,246.34985 L 332.56954,239.31342" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19578"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18741"
      inkscape:connection-start="#g18937"
      d="M 386.36122,225.8237 L 364.39334,245.39345" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.86081159;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:none;stroke-miterlimit:4;stroke-dasharray:0.86081156, 3.44324623;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18753"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18779"
      inkscape:connection-start="#g18741"
      d="M 360.11505,256.85024 L 505.07111,642.69407" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.79671603px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      id="path19622"
+     inkscape:connector-type="polyline"
      d="M 380.60513,309.75563 L 380.60513,309.75563" />
   <g
      id="g19642"
@@ -2027,30 +2059,30 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.13937"
        x="100.58247"><tspan
-         id="tspan19654"
-         y="475.13937"
-         x="100.58247">\symbolTable</tspan><tspan
-         id="tspan19662"
-         y="479.76077"
-         x="100.58247">\openDefinition</tspan><tspan
-         id="tspan19664"
-         y="484.38217"
-         x="100.58247">\classDefinitions</tspan><tspan
-         id="tspan19666"
-         y="489.00357"
-         x="100.58247">\methodDefinitions</tspan><tspan
-         id="tspan19668"
-         y="493.62497"
-         x="100.58247">\methodReferences</tspan><tspan
-         id="tspan19670"
-         y="498.2464"
-         x="100.58247">\methodArgs</tspan><tspan
-         id="tspan19672"
-         y="502.8678"
-         x="100.58247">\evalSclang</tspan><tspan
-         id="tspan19674"
-         y="507.4892"
-         x="100.58247">\openDevSource</tspan></text>
+			id="tspan19654"
+			y="475.13937"
+			x="100.58247">\symbolTable</tspan><tspan
+							     id="tspan19662"
+							     y="479.76077"
+							     x="100.58247">\openDefinition</tspan><tspan
+												     id="tspan19664"
+												     y="484.38217"
+												     x="100.58247">\classDefinitions</tspan><tspan
+																	       id="tspan19666"
+																	       y="489.00357"
+																	       x="100.58247">\methodDefinitions</tspan><tspan
+																							  id="tspan19668"
+																							  y="493.62497"
+																							  x="100.58247">\methodReferences</tspan><tspan
+																												    id="tspan19670"
+																												    y="498.2464"
+																												    x="100.58247">\methodArgs</tspan><tspan
+																																	id="tspan19672"
+																																	y="502.8678"
+																																	x="100.58247">\evalSclang</tspan><tspan
+																																					    id="tspan19674"
+																																					    y="507.4892"
+																																					    x="100.58247">\openDevSource</tspan></text>
   </g>
   <g
      id="g19684"
@@ -2069,9 +2101,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.13937"
        x="100.58247"><tspan
-         id="tspan19696"
-         y="475.13937"
-         x="100.58247">\documentNew</tspan></text>
+			id="tspan19696"
+			y="475.13937"
+			x="100.58247">\documentNew</tspan></text>
   </g>
   <g
      id="g19707"
@@ -2094,25 +2126,28 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.67444"
        x="59.780266"><tspan
-         id="tspan19715"
-         y="259.67444"
-         x="59.780266">prBasicNew</tspan></text>
+			id="tspan19715"
+			y="259.67444"
+			x="59.780266">prBasicNew</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19717"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19707"
      inkscape:connection-start="#g19684"
      d="M 351.90404,226.87097 L 352.04373,224.99013" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19719"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18951"
      inkscape:connection-start="#g19684"
      d="M 362.75751,227.13906 L 367.004,225.69125" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.47870495, 0.73935248, 0.36967624, 0.73935248;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19721"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18951"
      inkscape:connection-start="#g19707"
      d="M 362.43571,221.62464 L 367.004,222.36757" />
@@ -2137,13 +2172,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.67444"
        x="56.809788"><tspan
-         id="tspan19731"
-         y="259.67444"
-         x="56.809788">documentDoMsg</tspan></text>
+			id="tspan19731"
+			y="259.67444"
+			x="56.809788">documentDoMsg</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path19733"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19723"
      inkscape:connection-start="#g18741"
      d="M 352.51107,245.39345 L 333.89891,225.83738" />
@@ -2168,40 +2204,41 @@
        transform="scale(0.9643951,1.0369195)"
        y="319.70111"
        x="45.568253"><tspan
-         id="tspan19743"
-         y="319.70111"
-         x="45.568253">title_ \_documentRename</tspan><tspan
-         id="tspan19753"
-         y="324.45682"
-         x="45.568253">front \_documentSwitchTo</tspan><tspan
-         id="tspan19755"
-         y="329.21252"
-         x="45.568253">unfocusedFront \_documentPopto</tspan><tspan
-         id="tspan19757"
-         y="333.9682"
-         x="45.568253">syntaxColorize \_documentSyntaxColorize</tspan><tspan
-         id="tspan19759"
-         y="338.72391"
-         x="45.568253">selectRange</tspan><tspan
-         id="tspan19761"
-         y="343.47961"
-         x="45.568253">prisEditable_ \_documentSetEditable</tspan><tspan
-         id="tspan19763"
-         y="348.23532"
-         x="45.568253">removeUndo \_documentRemoveUndo</tspan><tspan
-         id="tspan19773"
-         y="352.99103"
-         x="45.568253">string_ \_documentPutString</tspan><tspan
-         id="tspan19775"
-         y="357.74673"
-         x="45.568253">prclose \_documentClose</tspan><tspan
-         id="tspan19777"
-         y="362.50241"
-         x="45.568253" /></text>
+			id="tspan19743"
+			y="319.70111"
+			x="45.568253">title_ \_documentRename</tspan><tspan
+									id="tspan19753"
+									y="324.45682"
+									x="45.568253">front \_documentSwitchTo</tspan><tspan
+															 id="tspan19755"
+															 y="329.21252"
+															 x="45.568253">unfocusedFront \_documentPopto</tspan><tspan
+																						id="tspan19757"
+																						y="333.9682"
+																						x="45.568253">syntaxColorize \_documentSyntaxColorize</tspan><tspan
+																														id="tspan19759"
+																														y="338.72391"
+																														x="45.568253">selectRange</tspan><tspan
+																																		    id="tspan19761"
+																																		    y="343.47961"
+																																		    x="45.568253">prisEditable_ \_documentSetEditable</tspan><tspan
+																																										id="tspan19763"
+																																										y="348.23532"
+																																										x="45.568253">removeUndo \_documentRemoveUndo</tspan><tspan
+																																																	id="tspan19773"
+																																																	y="352.99103"
+																																																	x="45.568253">string_ \_documentPutString</tspan><tspan
+																																																							    id="tspan19775"
+																																																							    y="357.74673"
+																																																							    x="45.568253">prclose \_documentClose</tspan><tspan
+																																																													    id="tspan19777"
+																																																													    y="362.50241"
+																																																													    x="45.568253" /></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path18979"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18963"
      inkscape:connection-start="#g18194"
      d="M 353.58282,281.13049 L 384.21186,283.94539" />
@@ -2226,21 +2263,21 @@
        transform="scale(0.9643951,1.0369195)"
        y="319.70111"
        x="45.568253"><tspan
-         id="tspan19809"
-         y="319.70111"
-         x="45.568253">string</tspan><tspan
-         id="tspan25244"
-         y="324.45682"
-         x="45.568253">currentLine</tspan><tspan
-         id="tspan19886"
-         y="329.21252"
-         x="45.568253">currentBlock</tspan><tspan
-         id="tspan19888"
-         y="333.9682"
-         x="45.568253">currentWord</tspan><tspan
-         id="tspan19890"
-         y="338.72391"
-         x="45.568253" /></text>
+			id="tspan19809"
+			y="319.70111"
+			x="45.568253">string</tspan><tspan
+						       id="tspan25244"
+						       y="324.45682"
+						       x="45.568253">currentLine</tspan><tspan
+											   id="tspan19886"
+											   y="329.21252"
+											   x="45.568253">currentBlock</tspan><tspan
+																id="tspan19888"
+																y="333.9682"
+																x="45.568253">currentWord</tspan><tspan
+																				    id="tspan19890"
+																				    y="338.72391"
+																				    x="45.568253" /></text>
   </g>
   <g
      id="g19892"
@@ -2263,9 +2300,9 @@
        transform="scale(0.9139201,1.0941876)"
        y="306.26614"
        x="50.597919"><tspan
-         id="tspan19900"
-         y="306.26614"
-         x="50.597919">new</tspan></text>
+			id="tspan19900"
+			y="306.26614"
+			x="50.597919">new</tspan></text>
   </g>
   <g
      id="g19902"
@@ -2288,9 +2325,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="320.56613"
        x="45.537674"><tspan
-         id="tspan19910"
-         y="320.56613"
-         x="45.537674">open</tspan></text>
+			id="tspan19910"
+			y="320.56613"
+			x="45.537674">open</tspan></text>
   </g>
   <g
      id="g19912"
@@ -2313,9 +2350,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="320.56613"
        x="45.537674"><tspan
-         id="tspan19920"
-         y="320.56613"
-         x="45.537674">newFromEmacs</tspan></text>
+			id="tspan19920"
+			y="320.56613"
+			x="45.537674">newFromEmacs</tspan></text>
   </g>
   <g
      id="g19922"
@@ -2338,9 +2375,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="320.56613"
        x="45.537674"><tspan
-         id="tspan19930"
-         y="320.56613"
-         x="45.537674">removeFromList</tspan></text>
+			id="tspan19930"
+			y="320.56613"
+			x="45.537674">removeFromList</tspan></text>
   </g>
   <g
      id="g19932"
@@ -2359,9 +2396,9 @@
        transform="scale(0.8790289,1.137619)"
        y="309.67294"
        x="220.61226"><tspan
-         id="tspan19938"
-         y="309.67294"
-         x="220.61226">current</tspan></text>
+			id="tspan19938"
+			y="309.67294"
+			x="220.61226">current</tspan></text>
     <text
        style="font-size:1.94263554px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -2369,9 +2406,9 @@
        transform="scale(0.8132426,1.2296453)"
        y="291.01257"
        x="236.54082"><tspan
-         id="tspan19942"
-         y="291.01257"
-         x="236.54082" /></text>
+			id="tspan19942"
+			y="291.01257"
+			x="236.54082" /></text>
   </g>
   <g
      id="g19944"
@@ -2394,9 +2431,9 @@
        transform="scale(0.9643951,1.0369195)"
        y="320.56613"
        x="45.537674"><tspan
-         id="tspan19952"
-         y="320.56613"
-         x="45.537674">current</tspan></text>
+			id="tspan19952"
+			y="320.56613"
+			x="45.537674">current</tspan></text>
   </g>
   <text
      style="font-size:7.84316587px;font-style:normal;font-weight:normal;fill:#3960c0;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -2404,9 +2441,9 @@
      id="text19965"
      y="89.67289"
      x="289.63861"><tspan
-       id="tspan19967"
-       y="89.67289"
-       x="289.63861">:Document</tspan></text>
+		      id="tspan19967"
+		      y="89.67289"
+		      x="289.63861">:Document</tspan></text>
   <g
      id="g19971"
      transform="matrix(0.6858222,0,0,0.6858222,300.80093,-109.8444)">
@@ -2428,12 +2465,12 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20108"
-         y="259.31705"
-         x="56.307816">init</tspan><tspan
-         id="tspan20114"
-         y="263.8078"
-         x="56.307816" /></text>
+			id="tspan20108"
+			y="259.31705"
+			x="56.307816">init</tspan><tspan
+						     id="tspan20114"
+						     y="263.8078"
+						     x="56.307816" /></text>
   </g>
   <g
      id="g19981"
@@ -2456,9 +2493,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan19989"
-         y="259.31705"
-         x="56.307816">checkCurrent :: lambda</tspan></text>
+			id="tspan19989"
+			y="259.31705"
+			x="56.307816">checkCurrent :: lambda</tspan></text>
   </g>
   <text
      style="font-size:1.35692394px;font-style:normal;font-weight:normal;fill:#d11a4c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -2466,27 +2503,28 @@
      id="text20038"
      y="305.33472"
      x="393.7424"><tspan
-       id="tspan20044"
-       y="305.33472"
-       x="393.7424">These are defined by</tspan><tspan
-       id="tspan20050"
-       y="307.03088"
-       x="393.7424"> quoted lisp code, better</tspan><tspan
-       id="tspan20056"
-       y="308.72702"
-       x="393.7424">to define a lisp function and</tspan><tspan
-       id="tspan20162"
-       y="310.42319"
-       x="393.7424">use the emacsinterface class</tspan><tspan
-       id="tspan20058"
-       y="312.11932"
-       x="393.7424">or sendToLisp than hand multiple</tspan><tspan
-       id="tspan20060"
-       y="313.81549"
-       x="393.7424">strings to eval</tspan></text>
+		     id="tspan20044"
+		     y="305.33472"
+		     x="393.7424">These are defined by</tspan><tspan
+								 id="tspan20050"
+								 y="307.03088"
+								 x="393.7424"> quoted lisp code, better</tspan><tspan
+														  id="tspan20056"
+														  y="308.72702"
+														  x="393.7424">to define a lisp function and</tspan><tspan
+																				       id="tspan20162"
+																				       y="310.42319"
+																				       x="393.7424">use the emacsinterface class</tspan><tspan
+																											   id="tspan20058"
+																											   y="312.11932"
+																											   x="393.7424">or sendToLisp than hand multiple</tspan><tspan
+																																		   id="tspan20060"
+																																		   y="313.81549"
+																																		   x="393.7424">strings to eval</tspan></text>
   <path
      style="opacity:0.4481328;fill:#808080;fill-rule:evenodd;stroke:#000000;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20116"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19735"
      inkscape:connection-start="#g20289"
      d="M 306.50999,174.67632 L 285.26961,259.44208" />
@@ -2511,9 +2549,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20259"
-         y="259.31705"
-         x="56.307816">prInitFromEmacs</tspan></text>
+			id="tspan20259"
+			y="259.31705"
+			x="56.307816">prInitFromEmacs</tspan></text>
   </g>
   <text
      style="font-size:1.35692394px;font-style:normal;font-weight:normal;fill:#d11a4c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -2521,48 +2559,48 @@
      id="text20172"
      y="229.65099"
      x="483.58582"><tspan
-       id="tspan20174"
-       y="229.65099"
-       x="483.58582">These are defined by</tspan><tspan
-       id="tspan20176"
-       y="231.34714"
-       x="483.58582"> quoted lisp code, better</tspan><tspan
-       id="tspan20178"
-       y="233.04329"
-       x="483.58582">to define a lisp function and</tspan><tspan
-       id="tspan20180"
-       y="234.73946"
-       x="483.58582">use the emacsinterface class</tspan><tspan
-       id="tspan20182"
-       y="236.43561"
-       x="483.58582">or sendToLisp than hand multiple</tspan><tspan
-       id="tspan20184"
-       y="238.13176"
-       x="483.58582">strings to eval</tspan></text>
+		      id="tspan20174"
+		      y="229.65099"
+		      x="483.58582">These are defined by</tspan><tspan
+								   id="tspan20176"
+								   y="231.34714"
+								   x="483.58582"> quoted lisp code, better</tspan><tspan
+														     id="tspan20178"
+														     y="233.04329"
+														     x="483.58582">to define a lisp function and</tspan><tspan
+																					   id="tspan20180"
+																					   y="234.73946"
+																					   x="483.58582">use the emacsinterface class</tspan><tspan
+																												id="tspan20182"
+																												y="236.43561"
+																												x="483.58582">or sendToLisp than hand multiple</tspan><tspan
+																																			 id="tspan20184"
+																																			 y="238.13176"
+																																			 x="483.58582">strings to eval</tspan></text>
   <text
      style="font-size:1.35692394px;font-style:normal;font-weight:normal;fill:#d11a4c;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
      xml:space="preserve"
      id="text20186"
      y="287.9946"
      x="485.58777"><tspan
-       id="tspan20188"
-       y="287.9946"
-       x="485.58777">These are defined by</tspan><tspan
-       id="tspan20190"
-       y="289.69077"
-       x="485.58777"> quoted lisp code, better</tspan><tspan
-       id="tspan20192"
-       y="291.3869"
-       x="485.58777">to define a lisp function and</tspan><tspan
-       id="tspan20194"
-       y="293.08307"
-       x="485.58777">use the emacsinterface class</tspan><tspan
-       id="tspan20196"
-       y="294.77921"
-       x="485.58777">or sendToLisp than hand multiple</tspan><tspan
-       id="tspan20198"
-       y="296.47537"
-       x="485.58777">strings to eval</tspan></text>
+		      id="tspan20188"
+		      y="287.9946"
+		      x="485.58777">These are defined by</tspan><tspan
+								   id="tspan20190"
+								   y="289.69077"
+								   x="485.58777"> quoted lisp code, better</tspan><tspan
+														     id="tspan20192"
+														     y="291.3869"
+														     x="485.58777">to define a lisp function and</tspan><tspan
+																					   id="tspan20194"
+																					   y="293.08307"
+																					   x="485.58777">use the emacsinterface class</tspan><tspan
+																												id="tspan20196"
+																												y="294.77921"
+																												x="485.58777">or sendToLisp than hand multiple</tspan><tspan
+																																			 id="tspan20198"
+																																			 y="296.47537"
+																																			 x="485.58777">strings to eval</tspan></text>
   <g
      id="g20200"
      transform="matrix(0.6858222,0,0,0.6858222,337.7385,-63.080575)">
@@ -2584,9 +2622,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20208"
-         y="259.31705"
-         x="56.307816">didBecomeKey</tspan></text>
+			id="tspan20208"
+			y="259.31705"
+			x="56.307816">didBecomeKey</tspan></text>
   </g>
   <g
      id="g20214"
@@ -2609,19 +2647,20 @@
        transform="scale(0.9643951,1.0369195)"
        y="319.70111"
        x="45.568253"><tspan
-         id="tspan20228"
-         y="319.70111"
-         x="45.568253">didBecomeKey</tspan><tspan
-         id="tspan20241"
-         y="324.45682"
-         x="45.568253">didResignKey</tspan><tspan
-         id="tspan20230"
-         y="329.21252"
-         x="45.568253" /></text>
+			id="tspan20228"
+			y="319.70111"
+			x="45.568253">didBecomeKey</tspan><tspan
+							     id="tspan20241"
+							     y="324.45682"
+							     x="45.568253">didResignKey</tspan><tspan
+												  id="tspan20230"
+												  y="329.21252"
+												  x="45.568253" /></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20243"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19932"
      inkscape:connection-start="#g20214"
      d="M 406.41797,246.14407 L 409.04332,226.08704" />
@@ -2646,12 +2685,12 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20253"
-         y="259.31705"
-         x="56.307816">closed</tspan><tspan
-         id="tspan20257"
-         y="263.8078"
-         x="56.307816">isEdited</tspan></text>
+			id="tspan20253"
+			y="259.31705"
+			x="56.307816">closed</tspan><tspan
+						       id="tspan20257"
+						       y="263.8078"
+						       x="56.307816">isEdited</tspan></text>
   </g>
   <g
      id="g20263"
@@ -2670,9 +2709,9 @@
        transform="scale(0.8790289,1.137619)"
        y="309.67294"
        x="220.61226"><tspan
-         id="tspan20269"
-         y="309.67294"
-         x="220.61226">thisdoc :: EmacsDocument</tspan></text>
+			id="tspan20269"
+			y="309.67294"
+			x="220.61226">thisdoc :: EmacsDocument</tspan></text>
     <text
        style="font-size:1.94263554px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -2680,25 +2719,28 @@
        transform="scale(0.8132426,1.2296453)"
        y="291.01257"
        x="236.54082"><tspan
-         id="tspan20273"
-         y="291.01257"
-         x="236.54082" /></text>
+			id="tspan20273"
+			y="291.01257"
+			x="236.54082" /></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20277"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20118"
      inkscape:connection-start="#g19912"
      d="M 378.2493,89.975533 L 380.09985,97.371831" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20283"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19981"
      inkscape:connection-start="#g20118"
      d="M 380.88007,105.8074 C 385.45944,113.13391 382.98675,118.94926 379.65573,124.58068" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20287"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19981"
      inkscape:connection-start="#g19971"
      d="M 339.23374,118.54249 C 354.01189,116.42149 359.41341,121.66784 366.56255,125.54106" />
@@ -2723,31 +2765,32 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20299"
-         y="259.31705"
-         x="56.307816">string_</tspan><tspan
-         id="tspan20303"
-         y="263.8078"
-         x="56.307816">title_</tspan><tspan
-         id="tspan20423"
-         y="268.29852"
-         x="56.307816">front</tspan><tspan
-         id="tspan20425"
-         y="272.78928"
-         x="56.307816">unfocusedFront</tspan><tspan
-         id="tspan20427"
-         y="277.28003"
-         x="56.307816">syntaxColorize</tspan><tspan
-         id="tspan20429"
-         y="281.77075"
-         x="56.307816">prisEditable_</tspan><tspan
-         id="tspan20431"
-         y="286.26151"
-         x="56.307816">removeUndo</tspan></text>
+			id="tspan20299"
+			y="259.31705"
+			x="56.307816">string_</tspan><tspan
+							id="tspan20303"
+							y="263.8078"
+							x="56.307816">title_</tspan><tspan
+										       id="tspan20423"
+										       y="268.29852"
+										       x="56.307816">front</tspan><tspan
+														     id="tspan20425"
+														     y="272.78928"
+														     x="56.307816">unfocusedFront</tspan><tspan
+																			    id="tspan20427"
+																			    y="277.28003"
+																			    x="56.307816">syntaxColorize</tspan><tspan
+																								   id="tspan20429"
+																								   y="281.77075"
+																								   x="56.307816">prisEditable_</tspan><tspan
+																													 id="tspan20431"
+																													 y="286.26151"
+																													 x="56.307816">removeUndo</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20311"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20325"
      inkscape:connection-start="#g19902"
      d="M 434.54323,155.44708 L 434.92145,126.75068" />
@@ -2772,13 +2815,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20335"
-         y="259.31705"
-         x="56.307816">initFromPath</tspan></text>
+			id="tspan20335"
+			y="259.31705"
+			x="56.307816">initFromPath</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20341"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19981"
      inkscape:connection-start="#g20325"
      d="M 427.10019,123.79271 C 415.28382,122.29681 403.4536,120.59322 392.19555,127.47217" />
@@ -2803,25 +2847,28 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20359"
-         y="259.31705"
-         x="56.307816">cFuncs :: lambda list</tspan></text>
+			id="tspan20359"
+			y="259.31705"
+			x="56.307816">cFuncs :: lambda list</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20210"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20200"
      inkscape:connection-start="#g19981"
      d="M 378.90174,133.06574 L 375.9608,159.20645" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20361"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20351"
      inkscape:connection-start="#g20325"
      d="M 427.10019,125.76679 L 373.43906,144.88153" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20339"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19981"
      inkscape:connection-start="#g20325"
      d="M 427.10019,123.79271 C 418.35651,127.35969 412.36467,133.15435 392.19555,127.47217" />
@@ -2846,13 +2893,14 @@
        transform="scale(0.7821596,1.2785115)"
        y="259.31705"
        x="56.307816"><tspan
-         id="tspan20381"
-         y="259.31705"
-         x="56.307816">title</tspan></text>
+			id="tspan20381"
+			y="259.31705"
+			x="56.307816">title</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:#808080;fill-rule:evenodd;stroke:#000000;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20389"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19735"
      inkscape:connection-start="#g20369"
      d="M 289.58895,155.32271 L 283.56446,259.44208" />
@@ -2877,9 +2925,9 @@
        transform="scale(0.7821596,1.2785115)"
        y="258.96399"
        x="54.354507"><tspan
-         id="tspan20403"
-         y="258.96399"
-         x="54.354507">prNewFromPath |_documentOpen</tspan></text>
+			id="tspan20403"
+			y="258.96399"
+			x="54.354507">prNewFromPath |_documentOpen</tspan></text>
   </g>
   <g
      id="g20405"
@@ -2902,31 +2950,35 @@
        transform="scale(0.7821596,1.2785115)"
        y="258.96399"
        x="54.354507"><tspan
-         id="tspan20449"
-         y="258.96399"
-         x="54.354507">prNewFromString \_documentNew</tspan></text>
+			id="tspan20449"
+			y="258.96399"
+			x="54.354507">prNewFromString \_documentNew</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:#808080;fill-rule:evenodd;stroke:#000000;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20415"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20405"
      inkscape:connection-start="#g19971"
      d="M 333.28913,122.04439 L 308.66602,257.57747" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20421"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19971"
      inkscape:connection-start="#g19892"
      d="M 322.06571,111.25598 L 329.08892,114.73258" />
   <path
      style="opacity:0.4481328;fill:#808080;fill-rule:evenodd;stroke:#000000;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20435"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19735"
      inkscape:connection-start="#g20245"
      d="M 277.66355,172.07509 L 282.55693,259.44208" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20455"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g19912"
      inkscape:connection-start="#g18927"
      d="M 341.22933,168.13349 C 332.58294,115.88245 353.83697,106.19837 375.23561,89.975533" />
@@ -2950,9 +3002,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="306.29095"
          x="34.321915"><tspan
-           id="tspan20467"
-           y="306.29095"
-           x="34.321915">cl</tspan></text>
+			  id="tspan20467"
+			  y="306.29095"
+			  x="34.321915">cl</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -2961,16 +3013,17 @@
        transform="scale(0.9110158,1.0976758)"
        y="253.94687"
        x="70.08802"><tspan
-         id="tspan20473"
-         y="253.94687"
-         x="70.08802">common lisp</tspan><tspan
-         id="tspan20477"
-         y="268.59882"
-         x="70.08802">compatibility</tspan></text>
+		       id="tspan20473"
+		       y="253.94687"
+		       x="70.08802">common lisp</tspan><tspan
+							  id="tspan20477"
+							  y="268.59882"
+							  x="70.08802">compatibility</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path18797"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18779"
      inkscape:connection-start="#g18799"
      d="M 391.56796,877.75248 L 504.23517,655.44475" />
@@ -2994,9 +3047,9 @@
          transform="scale(1.0723365,0.9325431)"
          y="306.29095"
          x="34.321915"><tspan
-           id="tspan20487"
-           y="306.29095"
-           x="34.321915">sclang-util</tspan></text>
+			  id="tspan20487"
+			  y="306.29095"
+			  x="34.321915">sclang-util</tspan></text>
     </g>
     <text
        style="font-size:11.72156715px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -3005,19 +3058,21 @@
        transform="scale(0.9110158,1.0976758)"
        y="253.94687"
        x="70.08802"><tspan
-         id="tspan20493"
-         y="253.94687"
-         x="70.08802" /></text>
+		       id="tspan20493"
+		       y="253.94687"
+		       x="70.08802" /></text>
   </g>
   <path
      style="opacity:0.59336093;fill:#f19a9a;fill-opacity:1;fill-rule:evenodd;stroke:#e553a0;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20497"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20479"
      inkscape:connection-start="#g18162"
      d="M 156.64825,737.63508 L 86.369345,769.45357" />
   <path
      style="opacity:0.59336093;fill:#f19a9a;fill-opacity:1;fill-rule:evenodd;stroke:#e553a0;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20499"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20459"
      inkscape:connection-start="#g18162"
      d="M 319.2866,737.63508 L 313.70706,747.45667" />
@@ -3038,9 +3093,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan20507"
-         y="304.1514"
-         x="218.56963">sclang-post-buffer :: string</tspan></text>
+			id="tspan20507"
+			y="304.1514"
+			x="218.56963">sclang-post-buffer :: string</tspan></text>
   </g>
   <g
      id="g20513"
@@ -3059,19 +3114,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan20519"
-         y="474.46832"
-         x="96.070381">sclang-make-buffer-name</tspan></text>
+			id="tspan20519"
+			y="474.46832"
+			x="96.070381">sclang-make-buffer-name</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path20525"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20513"
      inkscape:connection-start="#g18162"
      d="M 139.44375,737.63508 L 49.299958,775.47407" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20527"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20501"
      inkscape:connection-start="#g20513"
      d="M 54.809189,775.47407 L 338.30333,707.36164" />
@@ -3092,13 +3149,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan20535"
-         y="476.40149"
-         x="98.862717">sclang-get-post-buffer</tspan></text>
+			id="tspan20535"
+			y="476.40149"
+			x="98.862717">sclang-get-post-buffer</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20537"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20529"
      inkscape:connection-start="#g20501"
      d="M 353.87786,701.18413 L 376.43856,675.55244" />
@@ -3119,9 +3177,9 @@
        transform="scale(0.8790289,1.137619)"
        y="308.23605"
        x="218.56963"><tspan
-         id="tspan20545"
-         y="308.23605"
-         x="218.56963">*SCLang:PostBuffer* :: buffer</tspan></text>
+			id="tspan20545"
+			y="308.23605"
+			x="218.56963">*SCLang:PostBuffer* :: buffer</tspan></text>
   </g>
   <text
      style="font-size:3.01246881px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -3130,12 +3188,13 @@
      transform="scale(0.8790289,1.137619)"
      y="629.33868"
      x="35.29649"><tspan
-       id="tspan20549"
-       y="629.33868"
-       x="35.29649" /></text>
+		     id="tspan20549"
+		     y="629.33868"
+		     x="35.29649" /></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.76999998;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77, 0.77;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path20551"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20539"
      inkscape:connection-start="#g20529"
      d="M 382.12839,675.55244 L 403.95303,709.4282" />
@@ -3156,13 +3215,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21086"
-         y="476.40149"
-         x="98.862717">with-sclang-post-buffer</tspan></text>
+			id="tspan21086"
+			y="476.40149"
+			x="98.862717">with-sclang-post-buffer</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21088"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g20529"
      inkscape:connection-start="#g21080"
      d="M 382.32114,641.20764 L 380.04046,668.08765" />
@@ -3183,13 +3243,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21096"
-         y="476.40149"
-         x="98.862717">sclang-show-post-buffer</tspan></text>
+			id="tspan21096"
+			y="476.40149"
+			x="98.862717">sclang-show-post-buffer</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21098"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21080"
      inkscape:connection-start="#g21090"
      d="M 355.23215,608.72989 L 379.07938,633.74285" />
@@ -3210,13 +3271,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21106"
-         y="476.40149"
-         x="98.862717">sclang-clear-post-buffer</tspan></text>
+			id="tspan21106"
+			y="476.40149"
+			x="98.862717">sclang-clear-post-buffer</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21108"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21080"
      inkscape:connection-start="#g21100"
      d="M 390.12422,617.34972 L 384.02622,633.74285" />
@@ -3237,13 +3299,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21116"
-         y="476.40149"
-         x="98.862717">sclang-init-post-buffer</tspan></text>
+			id="tspan21116"
+			y="476.40149"
+			x="98.862717">sclang-init-post-buffer</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21120"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21080"
      inkscape:connection-start="#g21110"
      d="M 357.66987,639.27283 L 365.84434,638.6843" />
@@ -3252,18 +3315,20 @@
      xml:space="preserve"
      id="text21122"
      transform="translate(-0.6297468,-1.1218354)"><textPath
-       id="textPath21889"
-       xlink:href="#path21887"><tspan
-   id="tspan21124">redundant</tspan></textPath></text>
+						     id="textPath21889"
+						     xlink:href="#path21887"><tspan
+										id="tspan21124">redundant</tspan></textPath></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21131"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21100"
      inkscape:connection-start="#g21110"
      d="M 347.91147,636.74949 L 384.47753,617.34972" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21133"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21090"
      inkscape:connection-start="#g21110"
      d="M 342.01209,636.74949 L 350.538,608.72989" />
@@ -3284,9 +3349,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21141"
-         y="476.40149"
-         x="98.862717">sclang-get-process</tspan></text>
+			id="tspan21141"
+			y="476.40149"
+			x="98.862717">sclang-get-process</tspan></text>
   </g>
   <g
      id="g21143"
@@ -3305,9 +3370,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21149"
-         y="476.40149"
-         x="98.862717">sclang-library-initialized-p</tspan></text>
+			id="tspan21149"
+			y="476.40149"
+			x="98.862717">sclang-library-initialized-p</tspan></text>
   </g>
   <g
      id="g21151"
@@ -3326,19 +3391,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21157"
-         y="476.40149"
-         x="98.862717">sclang-library-initialized-p</tspan></text>
+			id="tspan21157"
+			y="476.40149"
+			x="98.862717">sclang-library-initialized-p</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21159"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21143"
      inkscape:connection-start="#g21151"
      d="M 197.46259,606.7671 L 182.32794,646.11395" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21161"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21135"
      inkscape:connection-start="#g21143"
      d="M 188.51693,651.57512 L 202.4548,656.83233" />
@@ -3359,13 +3426,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21696"
-         y="476.40149"
-         x="98.862717">sclang-on-library-startup</tspan></text>
+			id="tspan21696"
+			y="476.40149"
+			x="98.862717">sclang-on-library-startup</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21698"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21151"
      inkscape:connection-start="#g21690"
      d="M 146.39207,622.65886 L 190.53457,606.7671" />
@@ -3386,13 +3454,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21706"
-         y="476.40149"
-         x="98.862717">sclang-library-startup-hook</tspan></text>
+			id="tspan21706"
+			y="476.40149"
+			x="98.862717">sclang-library-startup-hook</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21708"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21700"
      inkscape:connection-start="#g21690"
      d="M 135.29921,632.88977 L 171.44588,692.22477" />
@@ -3413,9 +3482,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21750"
-         y="476.40149"
-         x="98.862717">sclang-on-library-shutdown</tspan></text>
+			id="tspan21750"
+			y="476.40149"
+			x="98.862717">sclang-on-library-shutdown</tspan></text>
   </g>
   <g
      id="g21752"
@@ -3434,19 +3503,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="96.070374"><tspan
-         id="tspan21758"
-         y="476.40149"
-         x="96.070374">sclang-library-shutdown-hook</tspan></text>
+			id="tspan21758"
+			y="476.40149"
+			x="96.070374">sclang-library-shutdown-hook</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21760"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21752"
      inkscape:connection-start="#g21788"
      d="M 278.67444,630.04194 L 291.08315,630.39303" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21762"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21151"
      inkscape:connection-start="#g21744"
      d="M 280.0725,605.90669 L 210.32452,604.16535" />
@@ -3467,19 +3538,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21782"
-         y="476.40149"
-         x="98.862717">sclang-process-sentinel</tspan></text>
+			id="tspan21782"
+			y="476.40149"
+			x="98.862717">sclang-process-sentinel</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21784"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21080"
      inkscape:connection-start="#g21776"
      d="M 305.7873,620.71197 L 365.84434,633.81211" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21786"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21744"
      inkscape:connection-start="#g21776"
      d="M 294.44498,615.48313 L 294.26529,609.72904" />
@@ -3500,9 +3573,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21794"
-         y="476.40149"
-         x="98.862717">sclang-process-filter</tspan></text>
+			id="tspan21794"
+			y="476.40149"
+			x="98.862717">sclang-process-filter</tspan></text>
   </g>
   <g
      id="g21800"
@@ -3521,9 +3594,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21806"
-         y="476.40149"
-         x="98.862717">sclang-start</tspan></text>
+			id="tspan21806"
+			y="476.40149"
+			x="98.862717">sclang-start</tspan></text>
   </g>
   <g
      id="g21808"
@@ -3542,19 +3615,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21814"
-         y="476.40149"
-         x="98.862717">sclang-stop</tspan></text>
+			id="tspan21814"
+			y="476.40149"
+			x="98.862717">sclang-stop</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21816"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21808"
      inkscape:connection-start="#g21800"
      d="M 266.92654,649.37589 L 266.89578,655.67536" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21818"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21110"
      inkscape:connection-start="#g21800"
      d="M 276.46508,644.82338 L 324.0829,641.61381" />
@@ -3575,25 +3650,28 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21826"
-         y="476.40149"
-         x="98.862717">sclang-start-command-process</tspan></text>
+			id="tspan21826"
+			y="476.40149"
+			x="98.862717">sclang-start-command-process</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21830"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21800"
      inkscape:connection-start="#g20501"
      d="M 346.73605,701.18413 L 272.54607,649.37589" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21832"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21800"
      inkscape:connection-start="#g21776"
      d="M 291.71943,621.03045 L 270.91082,641.55413" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21834"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21800"
      inkscape:connection-start="#g21788"
      d="M 269.02401,632.49657 L 267.57241,641.55413" />
@@ -3614,19 +3692,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan21842"
-         y="476.40149"
-         x="98.862717">sclang-kill</tspan></text>
+			id="tspan21842"
+			y="476.40149"
+			x="98.862717">sclang-kill</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21828"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g21800"
      d="M 276.46508,647.75216 L 290.24726,651.06348" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21844"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21836"
      inkscape:connection-start="#g21808"
      d="M 266.75378,663.49712 L 266.71752,664.65092" />
@@ -3647,9 +3727,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan21852"
-         y="304.1514"
-         x="218.56963">sclang-bullet-latin-1 :: const char</tspan></text>
+			id="tspan21852"
+			y="304.1514"
+			x="218.56963">sclang-bullet-latin-1 :: const char</tspan></text>
   </g>
   <g
      id="g21854"
@@ -3668,9 +3748,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.21521"
        x="219.89119"><tspan
-         id="tspan21860"
-         y="304.21521"
-         x="219.89119">sclang-bullet-utf-8 :: const char</tspan></text>
+			id="tspan21860"
+			y="304.21521"
+			x="219.89119">sclang-bullet-utf-8 :: const char</tspan></text>
   </g>
   <g
      id="g21862"
@@ -3689,9 +3769,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan21868"
-         y="304.1514"
-         x="218.56963">sclang-parse-error-regexp :: const regex-string</tspan></text>
+			id="tspan21868"
+			y="304.1514"
+			x="218.56963">sclang-parse-error-regexp :: const regex-string</tspan></text>
   </g>
   <g
      id="g21870"
@@ -3710,9 +3790,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan21876"
-         y="304.1514"
-         x="218.56963">sclang-max-post-buffer-size :: custom integer</tspan></text>
+			id="tspan21876"
+			y="304.1514"
+			x="218.56963">sclang-max-post-buffer-size :: custom integer</tspan></text>
   </g>
   <g
      id="g21878"
@@ -3731,13 +3811,14 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan21884"
-         y="304.1514"
-         x="218.56963">sclang-auto-scroll-post-buffer :: custom boolean</tspan></text>
+			id="tspan21884"
+			y="304.1514"
+			x="218.56963">sclang-auto-scroll-post-buffer :: custom boolean</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.77017856;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.77017852, 0.77017852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21887"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21110"
      inkscape:connection-start="#g20501"
      d="M 350.66129,701.18413 L 341.47803,644.21428" />
@@ -3761,20 +3842,22 @@
          transform="scale(1.0723365,0.9325431)"
          y="306.29095"
          x="34.321915"><tspan
-           id="tspan21900"
-           y="306.29095"
-           x="34.321915">compilation-minor-mode</tspan></text>
+			  id="tspan21900"
+			  y="306.29095"
+			  x="34.321915">compilation-minor-mode</tspan></text>
     </g>
   </g>
   <path
      style="opacity:0.77178423;fill:#bd7fa1;fill-opacity:1;fill-rule:evenodd;stroke:#bd7fa1;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21129"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g18763"
      inkscape:connection-start="#g21110"
      d="M 341.28686,644.21428 L 363.1749,843.24072" />
   <path
      style="opacity:0.59336093;fill:#f19a9a;fill-opacity:1;fill-rule:evenodd;stroke:#e553a0;stroke-width:1.1028024;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path21908"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21892"
      inkscape:connection-start="#g21110"
      d="M 342.62499,644.21428 L 391.62006,748.7944" />
@@ -3795,9 +3878,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21916"
-         y="475.07239"
-         x="96.942978">sclang-process :: const string</tspan></text>
+			id="tspan21916"
+			y="475.07239"
+			x="96.942978">sclang-process :: const string</tspan></text>
   </g>
   <g
      id="g21918"
@@ -3816,9 +3899,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21924"
-         y="475.07239"
-         x="96.942978">sclang-program :: custom string</tspan></text>
+			id="tspan21924"
+			y="475.07239"
+			x="96.942978">sclang-program :: custom string</tspan></text>
   </g>
   <g
      id="g21926"
@@ -3837,9 +3920,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21932"
-         y="475.07239"
-         x="96.942978">sclang-runtime-directory :: custom directory</tspan></text>
+			id="tspan21932"
+			y="475.07239"
+			x="96.942978">sclang-runtime-directory :: custom directory</tspan></text>
   </g>
   <g
      id="g21934"
@@ -3858,9 +3941,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21940"
-         y="475.07239"
-         x="96.942978">sclang-library-configuration-file :: custom  filename</tspan></text>
+			id="tspan21940"
+			y="475.07239"
+			x="96.942978">sclang-library-configuration-file :: custom  filename</tspan></text>
   </g>
   <g
      id="g21950"
@@ -3879,9 +3962,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21956"
-         y="475.07239"
-         x="96.942978">sclang-heap-size :: custom string</tspan></text>
+			id="tspan21956"
+			y="475.07239"
+			x="96.942978">sclang-heap-size :: custom string</tspan></text>
   </g>
   <g
      id="g21958"
@@ -3900,9 +3983,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21964"
-         y="475.07239"
-         x="96.942978">sclang-heap-growth :: custom string</tspan></text>
+			id="tspan21964"
+			y="475.07239"
+			x="96.942978">sclang-heap-growth :: custom string</tspan></text>
   </g>
   <g
      id="g21966"
@@ -3921,9 +4004,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21972"
-         y="475.07239"
-         x="96.942978">sclang-udp-port :: custom integer</tspan></text>
+			id="tspan21972"
+			y="475.07239"
+			x="96.942978">sclang-udp-port :: custom integer</tspan></text>
   </g>
   <g
      id="g21974"
@@ -3942,9 +4025,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21980"
-         y="475.07239"
-         x="96.942978">sclang-main-run :: custom boolean</tspan></text>
+			id="tspan21980"
+			y="475.07239"
+			x="96.942978">sclang-main-run :: custom boolean</tspan></text>
   </g>
   <g
      id="g21982"
@@ -3963,9 +4046,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan21988"
-         y="475.07239"
-         x="96.942978">sclang-main-stop :: custom boolean</tspan></text>
+			id="tspan21988"
+			y="475.07239"
+			x="96.942978">sclang-main-stop :: custom boolean</tspan></text>
   </g>
   <g
      id="g21990"
@@ -3984,13 +4067,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.46832"
        x="96.070381"><tspan
-         id="tspan21996"
-         y="474.46832"
-         x="96.070381">sclang-message</tspan></text>
+			id="tspan21996"
+			y="474.46832"
+			x="96.070381">sclang-message</tspan></text>
   </g>
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path21998"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21990"
      inkscape:connection-start="#g21690"
      d="M 129.16772,632.88977 L 38.246038,787.14501" />
@@ -4011,9 +4095,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan22006"
-         y="476.40149"
-         x="98.862717">sclang-memory-option-p</tspan></text>
+			id="tspan22006"
+			y="476.40149"
+			x="98.862717">sclang-memory-option-p</tspan></text>
   </g>
   <g
      id="g22008"
@@ -4032,9 +4116,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan22014"
-         y="476.40149"
-         x="98.862717">sclang-port-option-p</tspan></text>
+			id="tspan22014"
+			y="476.40149"
+			x="98.862717">sclang-port-option-p</tspan></text>
   </g>
   <g
      id="g22016"
@@ -4053,97 +4137,112 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan22022"
-         y="476.40149"
-         x="98.862717">sclang-make-options</tspan></text>
+			id="tspan22022"
+			y="476.40149"
+			x="98.862717">sclang-make-options</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22024"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21926"
      d="M 235.4677,631.76163 L 232.65741,631.58241" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22038"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21982"
      d="M 238.80763,629.83255 L 232.65741,630.2207" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22040"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21974"
      d="M 240.41333,626.85165 L 232.65741,628.54917" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22042"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21966"
      d="M 238.14328,623.22573 L 227.98648,628.03074" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22044"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21958"
      d="M 231.40515,620.17251 L 224.45985,628.03074" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22046"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21950"
      d="M 220.30782,617.65661 L 221.57536,628.03074" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22048"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21934"
      d="M 234.67195,643.3012 L 224.87226,633.76526" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.38584909;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path22050"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22008"
      inkscape:connection-start="#g22016"
      d="M 217.96974,633.76526 L 211.42739,638.50713" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.38584909;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path22052"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22000"
      inkscape:connection-start="#g22016"
      d="M 221.31602,633.76526 L 218.55637,646.7438" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22054"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21800"
      inkscape:connection-start="#g21918"
      d="M 247.37865,651.20831 L 257.42619,648.25916" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path22056"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21800"
      inkscape:connection-start="#g21910"
      d="M 285.96374,666.07339 L 270.55473,649.37589" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.33749601;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path22058"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g22016"
      inkscape:connection-start="#g21800"
      d="M 257.42619,642.38483 L 230.78706,633.76526" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23114"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21836"
      inkscape:connection-start="#g21910"
      d="M 279.17156,667.91312 L 276.11407,668.07082" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23116"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21135"
      inkscape:connection-start="#g21808"
      d="M 257.35723,660.58187 L 246.13558,661.75553" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23118"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21135"
      inkscape:connection-start="#g21836"
      d="M 257.07518,667.64103 L 246.13558,666.5829" />
@@ -4164,9 +4263,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23126"
-         y="476.40149"
-         x="98.862717">sclang-release-command-fifo</tspan></text>
+			id="tspan23126"
+			y="476.40149"
+			x="98.862717">sclang-release-command-fifo</tspan></text>
   </g>
   <g
      id="g23128"
@@ -4185,19 +4284,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23134"
-         y="476.40149"
-         x="98.862717">sclang-delete-command-fifo</tspan></text>
+			id="tspan23134"
+			y="476.40149"
+			x="98.862717">sclang-delete-command-fifo</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23136"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23128"
      inkscape:connection-start="#g23120"
      d="M 268.27879,680.7799 L 270.5483,688.23762" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.50832283;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23138"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23120"
      inkscape:connection-start="#g21836"
      d="M 266.92519,672.47268 L 267.1263,674.85209" />
@@ -4218,9 +4319,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan23146"
-         y="475.07239"
-         x="96.942978">sclang-command-fifo :: fifo</tspan></text>
+			id="tspan23146"
+			y="475.07239"
+			x="96.942978">sclang-command-fifo :: fifo</tspan></text>
   </g>
   <g
      id="g23148"
@@ -4239,9 +4340,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan23154"
-         y="475.07239"
-         x="96.942978">sclang-mkfifo-program :: custom string</tspan></text>
+			id="tspan23154"
+			y="475.07239"
+			x="96.942978">sclang-mkfifo-program :: custom string</tspan></text>
   </g>
   <g
      id="g23156"
@@ -4260,9 +4361,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan23162"
-         y="475.07239"
-         x="96.942978">sclang-cat-program :: custom string</tspan></text>
+			id="tspan23162"
+			y="475.07239"
+			x="96.942978">sclang-cat-program :: custom string</tspan></text>
   </g>
   <g
      id="g23164"
@@ -4281,19 +4382,21 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.07239"
        x="96.942978"><tspan
-         id="tspan23170"
-         y="475.07239"
-         x="96.942978">sclang-command-process :: string</tspan></text>
+			id="tspan23170"
+			y="475.07239"
+			x="96.942978">sclang-command-process :: string</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23172"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23128"
      inkscape:connection-start="#g23140"
      d="M 311.2684,678.39892 L 279.33175,688.23762" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23174"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23140"
      inkscape:connection-start="#g23120"
      d="M 282.30186,677.5579 L 307.77919,677.11733" />
@@ -4314,55 +4417,63 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23182"
-         y="476.40149"
-         x="98.862717">sclang-create-command-fifo</tspan></text>
+			id="tspan23182"
+			y="476.40149"
+			x="98.862717">sclang-create-command-fifo</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23184"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23140"
      inkscape:connection-start="#g23176"
      d="M 308.21393,693.73038 C 308.14988,687.16057 309.2141,681.27578 315.23254,678.39892" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23186"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23128"
      inkscape:connection-start="#g23176"
      d="M 291.93205,694.18297 L 283.75911,692.80778" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23190"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23176"
      inkscape:connection-start="#g23148"
      d="M 307.34531,702.96992 L 307.08767,699.65819" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23192"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23176"
      inkscape:connection-start="#g23140"
      d="M 315.23254,678.39892 C 315.60137,687.87289 311.63816,690.36746 308.21393,693.73038" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23194"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23176"
      inkscape:connection-start="#g21820"
      d="M 306.89852,659.0669 L 306.86035,693.73038" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23196"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g23140"
      d="M 315.30071,675.55545 L 308.543,659.0669" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23198"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g23156"
      d="M 324.1518,668.68703 L 311.97015,659.0669" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23200"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g23164"
      d="M 327.28538,662.30217 L 318.17347,659.0669" />
@@ -4383,13 +4494,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23208"
-         y="476.40149"
-         x="98.862717">sclang-command-process-sentinel</tspan></text>
+			id="tspan23208"
+			y="476.40149"
+			x="98.862717">sclang-command-process-sentinel</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23210"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g23202"
      d="M 295.83711,672.40542 L 304.3492,659.0669" />
@@ -4410,31 +4522,35 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23218"
-         y="476.40149"
-         x="98.862717">sclang-command-process-filter</tspan></text>
+			id="tspan23218"
+			y="476.40149"
+			x="98.862717">sclang-command-process-filter</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23220"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21820"
      inkscape:connection-start="#g23212"
      d="M 331.88758,589.96473 L 308.43873,651.06348" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23230"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23212"
      inkscape:connection-start="#g23775"
      d="M 320.41985,576.80438 L 329.23573,583.85034" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23240"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14950"
      inkscape:connection-start="#g23212"
      d="M 347.71905,584.56814 L 385.17713,578.58995" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3312642;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23769"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23120"
      inkscape:connection-start="#g23202"
      d="M 286.92999,675.12626 L 282.30186,675.76291" />
@@ -4458,9 +4574,9 @@
          transform="scale(0.8320585,1.2018385)"
          y="472.83609"
          x="96.070374"><tspan
-           id="tspan23228"
-           y="472.83609"
-           x="96.070374">sclang-command-process-previous</tspan></text>
+			  id="tspan23228"
+			  y="472.83609"
+			  x="96.070374">sclang-command-process-previous</tspan></text>
     </g>
     <text
        style="font-size:0.99427378px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
@@ -4469,9 +4585,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="477.54999"
        x="399.70184"><tspan
-         id="tspan23773"
-         y="477.54999"
-         x="399.70184">helps make coherant chunks out of the output stream</tspan></text>
+			id="tspan23773"
+			y="477.54999"
+			x="399.70184">helps make coherant chunks out of the output stream</tspan></text>
   </g>
   <g
      id="g23795"
@@ -4490,9 +4606,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23801"
-         y="476.40149"
-         x="98.862717">sclang-set-command-handler</tspan></text>
+			id="tspan23801"
+			y="476.40149"
+			x="98.862717">sclang-set-command-handler</tspan></text>
   </g>
   <g
      id="g23803"
@@ -4511,9 +4627,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23809"
-         y="476.40149"
-         x="98.862717">sclang-default-command-handler</tspan></text>
+			id="tspan23809"
+			y="476.40149"
+			x="98.862717">sclang-default-command-handler</tspan></text>
   </g>
   <g
      id="g23811"
@@ -4532,9 +4648,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23817"
-         y="476.40149"
-         x="98.862717">sclang-debug-command-handler</tspan></text>
+			id="tspan23817"
+			y="476.40149"
+			x="98.862717">sclang-debug-command-handler</tspan></text>
   </g>
   <g
      id="g23819"
@@ -4553,25 +4669,28 @@
        transform="scale(0.8320585,1.2018385)"
        y="476.40149"
        x="98.862717"><tspan
-         id="tspan23825"
-         y="476.40149"
-         x="98.862717">sclang-toggle-debug-command-handler</tspan></text>
+			id="tspan23825"
+			y="476.40149"
+			x="98.862717">sclang-toggle-debug-command-handler</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23827"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23819"
      inkscape:connection-start="#g23803"
      d="M 411.34091,594.55792 L 414.52458,594.79995" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23829"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23819"
      inkscape:connection-start="#g23811"
      d="M 411.21591,598.78933 L 414.52458,598.30106" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.39585778;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23831"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23795"
      inkscape:connection-start="#g23819"
      d="M 430.25573,593.30815 L 430.35806,589.54754" />
@@ -4592,49 +4711,56 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan23839"
-         y="304.1514"
-         x="218.56963">sclang-command-handler : plist</tspan></text>
+			id="tspan23839"
+			y="304.1514"
+			x="218.56963">sclang-command-handler : plist</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path23841"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g23833"
      inkscape:connection-start="#g23795"
      d="M 430.36791,584.05815 L 430.28305,580.4657" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23843"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g14968"
      d="M 492.87836,612.44931 L 488.05036,598.07828" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23845"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g14984"
      d="M 460.00689,610.05432 L 471.70892,591.66837" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23847"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g14950"
      d="M 410.43729,576.65071 C 408.21237,561.63836 449.4154,544.69829 471.70892,577.02171" />
   <path
      style="opacity:0.4481328;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path23849"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21990"
      inkscape:connection-start="#g24977"
      d="M 528.10702,640.24733 L 46.238831,787.14501" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.86081159;stroke-linecap:butt;stroke-linejoin:miter;marker-start:url(#Arrow2Sstart);stroke-miterlimit:4;stroke-dasharray:0.86081156, 3.44324623;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path14996"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14984"
      inkscape:connection-start="#g11590"
      d="M 418.89009,475.47448 L 454.69888,610.05432" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path24905"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14950"
      inkscape:connection-start="#g23833"
      d="M 416.63694,577.90418 L 410.43729,577.4663" />
@@ -4655,9 +4781,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan24913"
-         y="304.1514"
-         x="218.56963">sclang-token-interpret-cmd-line :: const string</tspan></text>
+			id="tspan24913"
+			y="304.1514"
+			x="218.56963">sclang-token-interpret-cmd-line :: const string</tspan></text>
   </g>
   <g
      id="g24915"
@@ -4676,9 +4802,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan24921"
-         y="304.1514"
-         x="218.56963">sclang-token-interpret-print-cmd-line :: const string</tspan></text>
+			id="tspan24921"
+			y="304.1514"
+			x="218.56963">sclang-token-interpret-print-cmd-line :: const string</tspan></text>
   </g>
   <g
      id="g24953"
@@ -4697,9 +4823,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.91568"
        x="97.905472"><tspan
-         id="tspan24959"
-         y="474.91568"
-         x="97.905472">sclang-send-string</tspan></text>
+			id="tspan24959"
+			y="474.91568"
+			x="97.905472">sclang-send-string</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -4707,31 +4833,35 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="90.237808"><tspan
-         id="tspan24963"
-         y="532.25635"
-         x="90.237808">sends sclang data to sc</tspan></text>
+			id="tspan24963"
+			y="532.25635"
+			x="90.237808">sends sclang data to sc</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path24967"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g24953"
      inkscape:connection-start="#g14914"
      d="M 479.70621,556.0776 L 479.43604,551.67604" />
   <path
      style="opacity:0.38174277;fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path24969"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g21135"
      inkscape:connection-start="#g24953"
      d="M 469.98485,549.62027 C 371.6867,529.66022 265.73512,550.88265 238.22048,656.83233" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path24973"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g24915"
      d="M 511.2266,565.61785 L 490.28152,573.5577" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path24975"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g24907"
      d="M 512.11727,559.60861 L 490.28152,571.86539" />
@@ -4752,9 +4882,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan24983"
-         y="474.65448"
-         x="94.88723">sclang-eval-expression</tspan></text>
+		       id="tspan24983"
+		       y="474.65448"
+		       x="94.88723">sclang-eval-expression</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -4762,13 +4892,14 @@
        transform="scale(0.9170184,1.0904907)"
        y="531.6806"
        x="85.445251"><tspan
-         id="tspan24987"
-         y="531.6806"
-         x="85.445251">sends sclang code from minibuf</tspan></text>
+			id="tspan24987"
+			y="531.6806"
+			x="85.445251">sends sclang code from minibuf</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path24989"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g24977"
      d="M 532.09591,630.9744 L 490.28152,586.8723" />
@@ -4789,13 +4920,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan24997"
-         y="474.65448"
-         x="94.88723">sclang-eval-line</tspan></text>
+		       id="tspan24997"
+		       y="474.65448"
+		       x="94.88723">sclang-eval-line</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25003"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g24991"
      d="M 516.62919,572.52455 L 490.28152,575.89132" />
@@ -4816,13 +4948,14 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan25011"
-         y="304.1514"
-         x="218.56963">sclang-eval-line-forward :: custom boolean</tspan></text>
+			id="tspan25011"
+			y="304.1514"
+			x="218.56963">sclang-eval-line-forward :: custom boolean</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25013"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g24991"
      inkscape:connection-start="#g25005"
      d="M 539.90248,572.22714 L 531.99079,571.88004" />
@@ -4843,13 +4976,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25021"
-         y="474.65448"
-         x="94.88723">sclang-eval-region</tspan></text>
+		       id="tspan25021"
+		       y="474.65448"
+		       x="94.88723">sclang-eval-region</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25027"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g25015"
      d="M 521.8706,579.26464 L 490.28152,577.57473" />
@@ -4870,13 +5004,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25035"
-         y="474.65448"
-         x="94.88723">sclang-eval-region-or-line</tspan></text>
+		       id="tspan25035"
+		       y="474.65448"
+		       x="94.88723">sclang-eval-region-or-line</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25037"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g25029"
      d="M 528.05641,587.29537 L 490.28152,579.09409" />
@@ -4897,13 +5032,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25045"
-         y="474.65448"
-         x="94.88723">sclang-eval-defun</tspan></text>
+		       id="tspan25045"
+		       y="474.65448"
+		       x="94.88723">sclang-eval-defun</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25047"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g25039"
      d="M 536.78977,621.36751 L 490.28152,584.44938" />
@@ -4924,9 +5060,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan25055"
-         y="304.1514"
-         x="218.56963">sclang-eval-results ::  list</tspan></text>
+			id="tspan25055"
+			y="304.1514"
+			x="218.56963">sclang-eval-results ::  list</tspan></text>
   </g>
   <g
      id="g25065"
@@ -4949,19 +5085,21 @@
        transform="scale(0.7821596,1.2785115)"
        y="260.30521"
        x="62.43145"><tspan
-         id="tspan25073"
-         y="260.30521"
-         x="62.43145">evalSclang</tspan></text>
+		       id="tspan25073"
+		       y="260.30521"
+		       x="62.43145">evalSclang</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.47870495, 0.73935248, 0.36967624, 0.73935248;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25075"
+     inkscape:connector-type="polyline"
      inkscape:connection-end="#g25049"
      inkscape:connection-start="#g25065"
      d="M 459.95033,663.3066 L 461.26669,659.39158" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25077"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g18881"
      inkscape:connection-start="#g25065"
      d="M 458.96013,669.44636 L 459.08814,678.80241" />
@@ -4982,9 +5120,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="475.8476"
        x="102.99581"><tspan
-         id="tspan25085"
-         y="475.8476"
-         x="102.99581">sclang-eval-sync</tspan></text>
+			id="tspan25085"
+			y="475.8476"
+			x="102.99581">sclang-eval-sync</tspan></text>
     <text
        style="font-size:2.48209238px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -4992,31 +5130,35 @@
        transform="scale(0.9170184,1.0904907)"
        y="532.25635"
        x="90.237839"><tspan
-         id="tspan25089"
-         y="532.25635"
-         x="90.237839">return a lisp value from an sc call</tspan></text>
+			id="tspan25089"
+			y="532.25635"
+			x="90.237839">return a lisp value from an sc call</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25091"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25079"
      inkscape:connection-start="#g23164"
      d="M 340.39449,662.30217 L 448.62056,644.31181" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25093"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g23212"
      inkscape:connection-start="#g23164"
      d="M 331.49644,662.30217 L 332.99745,589.96473" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25095"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g14984"
      inkscape:connection-start="#g25079"
      d="M 460.74073,635.17002 L 457.63262,621.81666" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.73935246;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.47870495, 0.73935248, 0.36967624, 0.73935248;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25099"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25049"
      inkscape:connection-start="#g25079"
      d="M 462.12476,648.89317 L 461.90705,655.90455" />
@@ -5026,60 +5168,66 @@
      id="text25101"
      y="650.71515"
      x="474.0752"><tspan
-       id="tspan25115"
-       y="650.71515"
-       x="474.0752">my prejudice is not to</tspan><tspan
-       id="tspan25144"
-       y="652.06311"
-       x="474.0752">use busy-waits, and use</tspan><tspan
-       id="tspan25146"
-       y="653.41107"
-       x="474.0752">callbacks instead - is there</tspan><tspan
-       id="tspan25148"
-       y="654.75903"
-       x="474.0752">a reason a callback will</tspan><tspan
-       id="tspan25150"
-       y="656.10693"
-       x="474.0752">not work here? (yeah it</tspan><tspan
-       id="tspan25152"
-       y="657.4549"
-       x="474.0752">means splitting all code</tspan><tspan
-       id="tspan25154"
-       y="658.80286"
-       x="474.0752">after the sc call into a callback)</tspan></text>
+		     id="tspan25115"
+		     y="650.71515"
+		     x="474.0752">my prejudice is not to</tspan><tspan
+								   id="tspan25144"
+								   y="652.06311"
+								   x="474.0752">use busy-waits, and use</tspan><tspan
+														  id="tspan25146"
+														  y="653.41107"
+														  x="474.0752">callbacks instead - is there</tspan><tspan
+																				      id="tspan25148"
+																				      y="654.75903"
+																				      x="474.0752">a reason a callback will</tspan><tspan
+																										      id="tspan25150"
+																										      y="656.10693"
+																										      x="474.0752">not work here? (yeah it</tspan><tspan
+																																     id="tspan25152"
+																																     y="657.4549"
+																																     x="474.0752">means splitting all code</tspan><tspan
+																																						     id="tspan25154"
+																																						     y="658.80286"
+																																						     x="474.0752">after the sc call into a callback)</tspan></text>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25156"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g23212"
      inkscape:connection-start="#g21878"
      d="M 351.41933,592.6631 L 342.81238,589.96473" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25158"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21788"
      inkscape:connection-start="#g21846"
      d="M 267.25551,614.67575 L 269.06306,627.06585" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25160"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21788"
      inkscape:connection-start="#g21854"
      d="M 269.89488,618.71725 L 269.56612,627.06585" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25162"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21788"
      inkscape:connection-start="#g21870"
      d="M 258.08927,609.70248 L 267.92157,627.06585" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.3594842;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.35948419, 0.35948419;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25164"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21110"
      inkscape:connection-start="#g21862"
      d="M 341.43074,623.5637 L 340.99868,636.74949" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25166"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21752"
      inkscape:connection-start="#g21744"
      d="M 295.3182,609.72904 L 301.4108,627.93784" />
@@ -5100,9 +5248,9 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan25174"
-         y="304.1514"
-         x="218.56963">sclang-show-workspace-on-startup :: custom boolean</tspan></text>
+			id="tspan25174"
+			y="304.1514"
+			x="218.56963">sclang-show-workspace-on-startup :: custom boolean</tspan></text>
   </g>
   <g
      id="g25176"
@@ -5121,9 +5269,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25182"
-         y="474.65448"
-         x="94.88723">sclang-fill-workspace-mode-map</tspan></text>
+		       id="tspan25182"
+		       y="474.65448"
+		       x="94.88723">sclang-fill-workspace-mode-map</tspan></text>
   </g>
   <g
      id="g25184"
@@ -5142,9 +5290,9 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25190"
-         y="474.65448"
-         x="94.88723">sclang-switch-to-workspace</tspan></text>
+		       id="tspan25190"
+		       y="474.65448"
+		       x="94.88723">sclang-switch-to-workspace</tspan></text>
   </g>
   <g
      id="g25192"
@@ -5163,25 +5311,28 @@
        transform="scale(0.8790289,1.137619)"
        y="304.1514"
        x="218.56963"><tspan
-         id="tspan25198"
-         y="304.1514"
-         x="218.56963">sclang-workspace-buffer :: string</tspan></text>
+			id="tspan25198"
+			y="304.1514"
+			x="218.56963">sclang-workspace-buffer :: string</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25200"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25184"
      inkscape:connection-start="#g25192"
      d="M 581.5887,580.02387 L 602.99357,587.25637" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.57152951;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25202"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25176"
      inkscape:connection-start="#g25184"
      d="M 621.6618,589.01043 L 626.7037,588.97025" />
   <path
      style="opacity:0.77178423;fill:#bd7fa1;fill-opacity:1;fill-rule:evenodd;stroke:#bd7fa1;stroke-width:1.70500004;stroke-linecap:butt;stroke-linejoin:miter;marker-start:none;marker-end:url(#Arrow2Mend);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25204"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g18763"
      inkscape:connection-start="#g25184"
      d="M 607.13352,590.97431 L 422.34335,843.24072" />
@@ -5202,9 +5353,9 @@
        transform="scale(0.8790289,1.137619)"
        y="308.23605"
        x="218.56963"><tspan
-         id="tspan25212"
-         y="308.23605"
-         x="218.56963">sclang-mode-map :: mode-map</tspan></text>
+			id="tspan25212"
+			y="308.23605"
+			x="218.56963">sclang-mode-map :: mode-map</tspan></text>
   </g>
   <g
      id="g4574">
@@ -5213,23 +5364,27 @@
        inkscape:connection-start="#g25206"
        inkscape:connection-end="#g25184"
        id="path25214"
+       inkscape:connection-type="polyline"
        style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.96669143;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.96669138, 0.96669138;stroke-dashoffset:0;stroke-opacity:1;display:inline" />
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.60898852;stroke-linecap:butt;stroke-linejoin:miter;marker-mid:none;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.60898852, 0.60898852;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25216"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25184"
      inkscape:connection-start="#g21926"
      d="M 258.69305,631.13908 C 380.66342,725.05192 558.69092,654.28106 595.3287,590.69711" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.31397912;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:0.31397909, 0.31397909;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25218"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g25184"
      inkscape:connection-start="#g25168"
      d="M 614.72863,574.89887 L 609.31033,587.25637" />
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92799997;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:1.856, 0.928, 0.464, 0.928;stroke-dashoffset:0;stroke-opacity:1;display:inline"
      id="path25220"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g21700"
      inkscape:connection-start="#g25184"
      d="M 601.04163,590.97431 C 541.93409,761.44071 382.54198,752.01521 195.07286,692.22477" />
@@ -5250,13 +5405,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25228"
-         y="474.65448"
-         x="94.88723">sclang-main-run</tspan></text>
+		       id="tspan25228"
+		       y="474.65448"
+		       x="94.88723">sclang-main-run</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25230"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g25222"
      d="M 538.75175,598.3819 L 490.28152,580.50327" />
@@ -5277,13 +5433,14 @@
        transform="scale(0.8320585,1.2018385)"
        y="474.65448"
        x="94.88723"><tspan
-         id="tspan25238"
-         y="474.65448"
-         x="94.88723">sclang-main-stop</tspan></text>
+		       id="tspan25238"
+		       y="474.65448"
+		       x="94.88723">sclang-main-stop</tspan></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:0.92816776;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;display:inline"
      id="path25240"
+     inkscape:connection-type="polyline"
      inkscape:connection-end="#g14914"
      inkscape:connection-start="#g25232"
      d="M 537.52947,607.3819 L 490.28152,582.05566" />
@@ -5305,54 +5462,54 @@
        y="475.13937"
        x="100.58247"
        sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan4550"
-         x="100.58247"
-         y="475.13937" /><tspan
-         sodipodi:role="line"
-         id="tspan4552"
-         x="100.58247"
-         y="479.76077">_documentNew</tspan><tspan
-         sodipodi:role="line"
-         x="100.58247"
-         y="479.76077"
-         id="tspan4572">_documentOpen</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4554"
-         x="100.58247"
-         y="484.38217">_documentClose</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4556"
-         x="100.58247"
-         y="489.00357">_documentRename</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4558"
-         x="100.58247"
-         y="493.62497">_documentSetEditable</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4560"
-         x="100.58247"
-         y="498.2464">_documentSwitchTo</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4562"
-         x="100.58247"
-         y="502.8678">_documentPutString</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4564"
-         x="100.58247"
-         y="507.4892">_documentPopTo</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4566"
-         x="100.58247"
-         y="512.1106">_string</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4568"
-         x="100.58247"
-         y="516.73199">_selectRange</tspan><tspan
-         sodipodi:role="line"
-         id="tspan4570"
-         x="100.58247"
-         y="521.35339">_selectedText</tspan></text>
+				      sodipodi:role="line"
+				      id="tspan4550"
+				      x="100.58247"
+				      y="475.13937" /><tspan
+							 sodipodi:role="line"
+							 id="tspan4552"
+							 x="100.58247"
+							 y="479.76077">_documentNew</tspan><tspan
+											      sodipodi:role="line"
+											      x="100.58247"
+											      y="479.76077"
+											      id="tspan4572">_documentOpen</tspan><tspan
+																     sodipodi:role="line"
+																     id="tspan4554"
+																     x="100.58247"
+																     y="484.38217">_documentClose</tspan><tspan
+																					    sodipodi:role="line"
+																					    id="tspan4556"
+																					    x="100.58247"
+																					    y="489.00357">_documentRename</tspan><tspan
+																										    sodipodi:role="line"
+																										    id="tspan4558"
+																										    x="100.58247"
+																										    y="493.62497">_documentSetEditable</tspan><tspan
+																																 sodipodi:role="line"
+																																 id="tspan4560"
+																																 x="100.58247"
+																																 y="498.2464">_documentSwitchTo</tspan><tspan
+																																					  sodipodi:role="line"
+																																					  id="tspan4562"
+																																					  x="100.58247"
+																																					  y="502.8678">_documentPutString</tspan><tspan
+																																										    sodipodi:role="line"
+																																										    id="tspan4564"
+																																										    x="100.58247"
+																																										    y="507.4892">_documentPopTo</tspan><tspan
+																																															  sodipodi:role="line"
+																																															  id="tspan4566"
+																																															  x="100.58247"
+																																															  y="512.1106">_string</tspan><tspan
+																																																			 sodipodi:role="line"
+																																																			 id="tspan4568"
+																																																			 x="100.58247"
+																																																			 y="516.73199">_selectRange</tspan><tspan
+																																																							      sodipodi:role="line"
+																																																							      id="tspan4570"
+																																																							      x="100.58247"
+																																																							      y="521.35339">_selectedText</tspan></text>
     <text
        style="font-size:3.6971221px;font-style:normal;font-weight:normal;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Bitstream Vera Sans"
        xml:space="preserve"
@@ -5360,9 +5517,9 @@
        y="475.13937"
        x="100.58247"
        id="text4541"><tspan
-         y="475.13937"
-         x="100.58247"
-         id="tspan4543" /></text>
+			y="475.13937"
+			x="100.58247"
+			id="tspan4543" /></text>
   </g>
   <path
      style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;marker-end:url(#Arrow2Send);stroke-miterlimit:4;stroke-dasharray:2, 1, 0.5, 1;stroke-dashoffset:0;stroke-opacity:1;display:inline"
