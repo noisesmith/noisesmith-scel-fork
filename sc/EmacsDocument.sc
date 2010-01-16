@@ -134,19 +134,23 @@ EmacsDocument
 		Emacs.sendToLisp(\_documentRemoveUndo, this);
 	}
 
-	getEmacsInfo { | arglist, returnFunc |
-		Emacs.sendToLisp( \_info,
+	getEmacsInfoAsync { | arglist, returnFunc |
+		Emacs.sendToLisp(
+			\_info,
 			[ this ] ++ arglist,
 			{ | resultList | returnFunc.value( *resultList ) }
-		)
+		);
+		^nil;
+	}
+
+	getEmacsInfo { | arglist, returnFunc |
+		var result = nil;
+		^this.getEmacsInfoAsync( arglist, returnFunc );
+		// synchronization goes here?
 	}
 
 	string { | rangestart, returnFunc, rangesize = 1 |
-		Emacs.sendToLisp( \_info,
-			[ this, \_string, rangestart, rangesize ],
-			{ | result | returnFunc.value( result ) }
-		)
-		^nil;
+		^this.getEmacsInfo( [ \_string, rangestart, rangesize ], returnFunc );
 	}
 
 	string_{|string, rangestart = -1, rangesize = 1|
@@ -154,21 +158,15 @@ EmacsDocument
 	}
 
 	currentLine { | returnFunc |
-		Emacs.sendToLisp(\_info, [ this, \_currentLine ],
-			{ |result| returnFunc.value( result ) }  );
-		^nil;
+		^this.getEmacsInfo( [ \_currentLine ], returnFunc );
 	}
 
 	currentBlock { | returnFunc |
-		Emacs.sendToLisp(\_info, [ this, \_currentBlock ],
-			{ | result | returnFunc.value( result ) } );
-		^nil;
+		^this.getEmacsInfo( [ \_currentBlock ], returnFunc );
 	}
 
 	currentWord { |returnFunc|
-		Emacs.sendToLisp( \_info, [ this, \_currentWord ],
-			{ |result| returnFunc.value( result ) } );
-		^nil;
+		^this.getEmacsInfo( [ \_currentWord ], returnFunc );
 	}
 
 	// environment support
@@ -276,11 +274,7 @@ EmacsDocument
 	*prBasicNew { ^super.new }
 
 	selectedText { | returnFunc |
-		Emacs.sendToLisp( \_info,
-			[ this, \_selectedText ],
-			{ | result | returnFunc.value( result ) }
-		);
-		^nil;
+		^this.getEmacInfo( [ \_selectedText ], returnFunc );
 	}
 
 	setBackgroundColor { | color |
@@ -289,11 +283,7 @@ EmacsDocument
 	}
 
 	getBackgroundColor { | returnFunc |
-		Emacs.sendToLisp( \_info,
-			[ this, \_background ],
-			{ | result | returnFunc.value( result ) }
-		);
-		^nil;
+		^this.getEmacsInfo( [ \_background ], returnFunc );
 	}
 
 	setTextColor { | color, rangestart, rangesize |
@@ -303,14 +293,11 @@ EmacsDocument
 	}
 
 	selectedRangeLocation{ | returnFunc |
-		Emacs.sendToLisp( \_info,
-			[ this, \_rangeLocation ],
-			{ | result | returnFunc.value( result ) } );
+		^this.getEmacsInfo ( [ \_rangeLocation ], returnFunc );
 	}
 
 	selectedRangeSize { | returnFunc |
-		Emacs.sendToLisp( \_info,
-			[ this, \_rangeSize ], { | result | returnFunc.value( result ) } );
+		^this.getEmacsInfo( [ \_rangeSize ], returnFunc );
 	}
 	
 	prselectLine { | line |
@@ -318,9 +305,7 @@ EmacsDocument
 	}
 
 	prGetBounds { | returnFunc |
-		Emacs.sendToLisp( \info,
-			[ this, \_bounds ],
-			{ | result | returnFunc.value( result ) } );
+		^this.getEmacsInfo( [ \_bounds ], returnFunc );
 	}
 
 	prSetBounds { | rect |
