@@ -61,7 +61,7 @@ otherwise nil. Return value of the lambda will be printed in the postbuffer"
 					 (list lambda)))
     (sclang-send-string
      sclang-token-interpret-print-cmd-line
-     (format "[\\scel_emacs_callback, %s, %s]"
+     (format "[\\scel_emacs_callback, %s, %s];\n"
 	     sclang-callback-stack-counter string)))
 
 (defcustom sclang-minibuf-results t
