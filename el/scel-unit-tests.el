@@ -59,13 +59,33 @@
 (push
  (list "_documentOpen existing with 1 arg"
        (lambda ()
-	( concat "Document.open(\"" scel-unit-test-file "\", 5)"))
+	(concat "Document.open(\"" scel-unit-test-file "\", 5)"))
        (lambda (res)
 	 (with-current-buffer scel-unit-test-file
 	   (and (string-match scel-unit-test-file-result res)
 		(equal "5"
 		       (buffer-substring-no-properties (point) (+ 1 (point))))
 		(kill-buffer)))))
+ scel-unit-tests)
+
+(push
+ (list "_documentOpen existing with 2 args"
+       (lambda ()
+	 (concat "Document.open(\"" scel-unit-test-file "\", 5, 4)"))
+       (lambda (res)
+	 (with-current-buffer scel-unit-test-file
+	   (and (string-match scel-unit-test-file-result res)
+		(equal "5678"
+		       (buffer-substring-no-properties (point) (mark)))
+		(kill-buffer)))))
+ scel-unit-tests)
+
+(push
+ (list "cleanup"
+       (lambda ())
+       (lambda (res)
+	 (delete-file scel-unit-test-file)
+	 t))
  scel-unit-tests)
 
 (defun scel-run-all-unit-tests ()
