@@ -61,7 +61,7 @@ otherwise nil. Return value of the lambda will be printed in the postbuffer"
 					 (list lambda)))
     (sclang-send-string
      sclang-token-interpret-print-cmd-line
-     (format "[\\scel_emacs_callback, %s, %s];\n"
+     (format "[ \\scel_emacs_callback, %s, %s, \\end_scel_emacs_callback ];\n"
 	     sclang-callback-stack-counter string)))
 
 (defcustom sclang-minibuf-results t
@@ -94,23 +94,31 @@ For reading or modifying the string from sclang, use the variable sclang-reply-s
     (insert sclang-reply-string)))
 
 (defun sclang-apply-any-hooks (buffer)
-      (when (and (> (length sclang-reply-string) 23)
-		    (string= (substring sclang-reply-string 0 24)
-		     "\n[ scel_emacs_callback, "))
-	(with-current-buffer buffer
-	  (let* ((reply (substring sclang-reply-string 24))
-		 (key-start (string-match "[0-9]" reply))
-		 (key-end (string-match "[^0-9]" (substring reply key-start)))
-		 (key (read (substring reply key-start key-end)))
-		 (response (substring reply (+ key-end 2) -3))
-		 (response-string (format "%s%s" response
-					  (substring reply -1))))
-	    (setq sclang-reply-string
-		  (funcall (cadr (assoc key sclang-callback-stack))
-			   response-string))
-	    (setq sclang-callback-stack
-		  (assq-delete-all key sclang-callback-stack))))))
+  (setq sclang-reply-string
+	(sclang-apply-any-hooks-rec sclang-reply-string "")))
 
+(defun sclang-apply-any-hooks-rec (string result)
+  (let (this-start this-end this-match next-result next-start key)
+    (if (not (string-match "\\[ scel_emacs_callback, " string))
+	result
+      (setq this-start (match-beginning 0))
+      (unless (string-match ", end_scel_emacs_callback \\]"
+			    (substring string this-start))
+	(error "Partial callback data in sclang-apply-any-hooks-rec %S"
+	       (substring string this-start)))
+      (setq this-end (+ (match-beginning 0) 1) next-start (match-end 0))
+      (setq this-match (substring string this-start this-end))
+      (unless (string-match "\\([0-9]+\\), \\(.*\\)" this-match)
+	(error
+	 "Malformatted callback call in sclang-apply-any-hooks-rec %S"
+	 this-match))
+      (setq key (read (match-string 1 this-match)))
+      (setq result (concat
+		    (funcall (cadr (assoc key sclang-callback-stack))
+			     (match-string 2 this-match))
+		    result))
+      (setq sclang-callback-stack (assq-delete-all key sclang-callback-stack))
+      (sclang-apply-any-hooks-rec (substring string next-start) result))))
 
 (defcustom sclang-collapse t
   "If non-nil, collapse some messages to a single expandable widget"
