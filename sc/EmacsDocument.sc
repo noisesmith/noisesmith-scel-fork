@@ -70,6 +70,100 @@ EmacsDocument
 		});
 	}
 
+	getEmacsInfoAsync { | arglist, returnFunc |
+		// allows us to get info from emacs asynchronously
+		Emacs.sendToLisp(
+			\_info,
+			[ this ] ++ arglist,
+			{ | resultList | returnFunc.value( *resultList ) }
+		);
+		^nil;
+	}
+
+	getEmacsInfoSync { | arglist |
+		// only usable inside a routine, but matches the Document API
+		var result = nil;
+		var delta_t = 0.001;
+		if(thisThread.class.asSymbol != \Routine,
+			{ MethodError(
+				"EmacsDocument synchronous methods can only be called" ++
+				" inside a Routine" ).throw } );
+		this.getEmacsInfoAsync( arglist, { | x | result = x } );
+		while( { and( result.isNil, delta_t < 10 ) },
+			{ sleep( delta_t = delta_t * 1.4 ) }
+		);
+		^result;
+	}
+	
+	// synchronous, only in routines
+	string { | rangestart, rangesize = 1 |
+		^this.getEmacsInfoSync( [ \_string, rangestart, rangesize ] );
+	}
+
+	currentLine {
+		^this.getEmacsInfoSync( [ \_currentLine ] );
+	}
+
+	currentBlock {
+		^this.getEmacsInfoSync( [ \_currentBlock ] );
+	}
+
+	currentWord {
+		^this.getEmacsInfoSync( [ \_currentWord ] );
+	}
+
+	selectedText {
+		^this.getEmacsInfoSync( [ \_selectedText ] );
+	}
+
+	getBackgroundColor {
+		^this.getEmacsInfoSync( [ \_background ] );
+	}
+
+	selectedRangeLocation {
+		^this.getEmacsInfoSync( [ \_rangeLocation ] );
+	}
+
+	selectedRangeSize {
+		^this.getEmacsInfoSync( [ \_rangeSize ] );
+	}
+
+	// async, usable outside routines
+	stringAsync { | rangestart, returnFunc, rangesize = 1 |
+		^this.getEmacsInfoAsync( [ \_string, rangestart, rangesize ],
+			returnFunc );
+	}
+
+	currentLineAsync { | returnFunc |
+		^this.getEmacsInfoAsync( [ \_currentLine ], returnFunc );
+	}
+
+	currentBlockAsync { | returnFunc |
+		^this.getEmacsInfoAsync( [ \_currentBlock ], returnFunc );
+	}
+
+	currentWordAsync { |returnFunc|
+		^this.getEmacsInfoAsync( [ \_currentWord ], returnFunc );
+	}
+
+	selectedTextAsync { | returnFunc |
+		^this.getEmacInfoAsync( [ \_selectedText ], returnFunc );
+	}
+
+	getBackgroundColorAsync { | returnFunc |
+		^this.getEmacsInfoAsync( [ \_background ], returnFunc );
+	}
+
+	selectedRangeLocationAsync { | returnFunc |
+		^this.getEmacsInfoAsync( [ \_rangeLocation ], returnFunc );
+	}
+
+	selectedRangeSizeAsync { | returnFunc |
+		^this.getEmacsInfoAsync( [ \_rangeSize ], returnFunc );
+	}
+
+	// from here down should be compatible with Document
+
 	*documentDo { | id, function |
 		var doc;
 		doc = documentMap.at(id);
@@ -133,40 +227,8 @@ EmacsDocument
 	removeUndo{
 		Emacs.sendToLisp(\_documentRemoveUndo, this);
 	}
-
-	getEmacsInfoAsync { | arglist, returnFunc |
-		Emacs.sendToLisp(
-			\_info,
-			[ this ] ++ arglist,
-			{ | resultList | returnFunc.value( *resultList ) }
-		);
-		^nil;
-	}
-
-	getEmacsInfo { | arglist, returnFunc |
-		var result = nil;
-		^this.getEmacsInfoAsync( arglist, returnFunc );
-		// synchronization goes here?
-	}
-
-	string { | rangestart, returnFunc, rangesize = 1 |
-		^this.getEmacsInfo( [ \_string, rangestart, rangesize ], returnFunc );
-	}
-
 	string_{|string, rangestart = -1, rangesize = 1|
 		Emacs.sendToLisp( \_documentPutString, [ this, string ] );
-	}
-
-	currentLine { | returnFunc |
-		^this.getEmacsInfo( [ \_currentLine ], returnFunc );
-	}
-
-	currentBlock { | returnFunc |
-		^this.getEmacsInfo( [ \_currentBlock ], returnFunc );
-	}
-
-	currentWord { |returnFunc|
-		^this.getEmacsInfo( [ \_currentWord ], returnFunc );
 	}
 
 	// environment support
@@ -191,6 +253,31 @@ EmacsDocument
 		};
 		if ( current === this, { current = nil } );
 		//super.didResignKey;
+	}
+
+	setBackgroundColor { | color |
+		Emacs.sendToLisp( \_background_,
+			[ this, color.red, color.green, color.blue ] );
+	}
+
+	setTextColor { | color, rangestart, rangesize |
+		Emacs.sendToLisp( \_textColor_,
+			[ this, color.red, color.green, color.blue,
+				rangestart, rangesize ] );
+	}
+
+
+	insertTextRange { arg string, rangestart, rangesize;
+		Emacs.sendToLisp( \_insertTextRange,
+			[ this, string, rangestart, rangesize ] );
+	}
+	
+	setFont {
+		| rangestart, rangesize, family, height, weight, slant,
+		overline, underline, strikethrough, box |
+		Emacs.sendToLisp( \_font_,
+			[ this, rangestart, rangesize, family, height, weight, slant,
+				overline, underline, strikethrough, box ] );
 	}
 
 
@@ -273,33 +360,6 @@ EmacsDocument
 
 	*prBasicNew { ^super.new }
 
-	selectedText { | returnFunc |
-		^this.getEmacInfo( [ \_selectedText ], returnFunc );
-	}
-
-	setBackgroundColor { | color |
-		Emacs.sendToLisp( \_background_,
-			[ this, color.red, color.green, color.blue ] );
-	}
-
-	getBackgroundColor { | returnFunc |
-		^this.getEmacsInfo( [ \_background ], returnFunc );
-	}
-
-	setTextColor { | color, rangestart, rangesize |
-		Emacs.sendToLisp( \_textColor_,
-			[ this, color.red, color.green, color.blue,
-				rangestart, rangesize ] );
-	}
-
-	selectedRangeLocation{ | returnFunc |
-		^this.getEmacsInfo ( [ \_rangeLocation ], returnFunc );
-	}
-
-	selectedRangeSize { | returnFunc |
-		^this.getEmacsInfo( [ \_rangeSize ], returnFunc );
-	}
-	
 	prselectLine { | line |
 		Emacs.sendToLisp( \_selectLine, [ this, line ] );
 	}
@@ -315,19 +375,6 @@ EmacsDocument
 
 	prinsertText { | dataptr, txt |
 		Emacs.sendToLisp( \_insertText, [ this, dataptr, txt ] );
-	}
-
-	insertTextRange { arg string, rangestart, rangesize;
-		Emacs.sendToLisp( \_insertTextRange,
-			[ this, string, rangestart, rangesize ] );
-	}
-	
-	setFont {
-		| rangestart, rangesize, family, height, weight, slant,
-		overline, underline, strikethrough, box |
-		Emacs.sendToLisp( \_font_,
-			[ this, rangestart, rangesize, family, height, weight, slant,
-				overline, underline, strikethrough, box ] );
 	}
 
 	// unimplemented methods

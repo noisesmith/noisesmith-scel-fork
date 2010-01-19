@@ -21,11 +21,7 @@ ScelDocument : Document{
 	var checkCurrent;
 	var <envir;
 	var title_p, path_p;
-	var <>currentString;
-	var <>currentColor;
-	var <>currentRangeLocation;
-	var <>currentRangeSize;
-	var <>currentBounds;
+
 	*new{ | title = "Untitled", string = "", makeListener = false, toFront=true |
 		//		"ScelDocument.new".postln;
 		^super.prBasicNew.init( title, string, makeListener, toFront );
@@ -84,7 +80,7 @@ ScelDocument : Document{
 	}
 
 	getInfo { | arglist, callBack |
-		thisdoc.getEmacsInfo( arglist, callBack );
+		thisdoc.getEmacsInfoAsync( arglist, callBack );
 	}
 
 	title{
@@ -251,47 +247,19 @@ ScelDocument : Document{
 	}
 
 	string {arg rangestart, rangesize = 1;
-		//		var cond;
-		currentString = nil;
-		thisdoc.string( rangestart, { |v| currentString = v }, rangesize );
-//		cond = Condition.new( { currentString.notNil } );
-//		cond.wait;
-		//		while ( { currentString.isNil }, {"wait for string".postln;} );
-		"Asynchronous: retrieve the result with .currentString".postln;
-		^currentString;
+		^thisdoc.string( rangestart, rangesize );
 	}
 
 	currentLine {
-		//		var cond;
-		currentString = nil;
-		thisdoc.currentLine( { |v| currentString = v } );
-//		cond = Condition.new( { currentString.notNil } );
-//		cond.wait;
-		//		while ( { currentString.isNil }, {"wait for string".postln;} );
-		"Asynchronous: retrieve the result with .currentString".postln;
-		^currentString;
+		^thisdoc.currentLine();
 	}
 
 	currentWord {
-		//		var cond;
-		currentString = nil;
-		thisdoc.currentWord( { |v| currentString = v } );
-//		cond = Condition.new( { currentString.notNil } );
-//		cond.wait;
-		//		while ( { currentString.isNil }, {"wait for string".postln;} );
-		"Asynchronous: retrieve the result with .currentString".postln;
-		^currentString;
+		^thisdoc.currentWord();
 	}
 
 	currentBlock {
-		//		var cond;
-		currentString = nil;
-		thisdoc.currentBlock( { |v| currentString = v } );
-//		cond = Condition.new( { currentString.notNil } );
-//		cond.wait;
-		//		while ( { currentString.isNil }, {"wait for string".postln;} );
-		"Asynchronous: retrieve the result with .currentString".postln;
-		^currentString;
+		^thisdoc.currentBlock();
 	}
 
 
@@ -308,10 +276,7 @@ ScelDocument : Document{
 	}
 
 	selectedText {
-		currentString = nil;
-		thisdoc.selectedText( { |v| currentString = v } );
-		"Asynchronous: retrieve the result with .currentString".postln;
-		^nil
+		thisdoc.selectedText();
 	}
 
 	*postColor_{ | color |
@@ -319,10 +284,7 @@ ScelDocument : Document{
 	}
 
 	background {
-		currentColor = nil;
-		^thisdoc.getBackgroundColor(
-			{ |v| currentColor = v }
-		);
+		^thisdoc.getBackgroundColor();
 	}
 
 	background_ { | color |
@@ -330,12 +292,12 @@ ScelDocument : Document{
 	}
 
 	setTextColor { | color, rangeStart = -1, rangeSize = 0 | 
-		stringColor = color;
 		thisdoc.setTextColor(color, rangeStart, rangeSize);
 	}
 
 	*prGetIndexOfListener{
-		^this.allDocuments.detectIndex( { |doc| doc.title == "*SCLang:PostBuffer*" } );
+		^this.allDocuments.detectIndex(
+			{ |doc| doc.title == "*SCLang:PostBuffer*" } );
 	}
 
 	*current {
@@ -348,14 +310,11 @@ ScelDocument : Document{
 	}
 
 	selectedRangeLocation {
-		currentRangeLocation = nil;
-		thisdoc.selectedRangeLocation( { | loc | currentRangeLocation = loc } );
-		^nil
+		^thisdoc.selectedRangeLocation();
 	}
 
 	selectedRangeSize {
-		currentRangeSize = nil;
-		thisdoc.selectedRangeSize( { | size | currentRangeSize = size } );
+		^thisdoc.selectedRangeSize();
 	}
 
 	prselectLine { | line |
@@ -363,10 +322,7 @@ ScelDocument : Document{
 	}
 
 	prGetBounds {
-		currentBounds = nil;
-		^thisdoc.prGetBounds(
-			{ |v| currentBounds = v }
-		);
+		^thisdoc.prGetBounds();
 	}
 
 	prSetBounds { | rect |

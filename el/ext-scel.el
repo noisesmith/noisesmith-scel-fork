@@ -251,7 +251,6 @@ black background"
        (lambda (but)
 	 (save-excursion
 	   (let (new-str)
-	     (goto-char pos)
 	     (unless (eq (following-char) ?\[)
 	       (search-backward "["))
 	     (forward-char)
@@ -259,9 +258,9 @@ black background"
 		   (if (eq (following-char) ?-)
 		       "+" "-"))
 	     (delete-char 1)
-	     (insert-string new-str) ;; surrounding properties are added
+	     (insert new-str) ;; surrounding properties are added
 	     (let* ((start
-		     (next-single-property-change pos 'sclang-collapse))
+		     (next-single-property-change (point) 'sclang-collapse))
 		    (end (or
 			  (next-single-property-change start
 						       'sclang-collapse)
