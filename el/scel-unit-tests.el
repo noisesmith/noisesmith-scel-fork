@@ -141,12 +141,12 @@
 	    (kill-buffer)))))
  scel-unit-tests)
 
-(push
- (list "_documentRename"
-       (lambda ()
-	 (
-	 (with-current-buffer 
-	 "~doc = Document.current"
+;(push
+ ;(list "_documentRename"
+  ;     (lambda ()
+;	 (
+;	 (with-current-buffer 
+;	 "~doc = Document.current"
 
 
 (push
