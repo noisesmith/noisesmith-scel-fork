@@ -8,14 +8,19 @@
 (defvar scel-unit-test-file-result
   "a ScelDocument(\\*\\*\\*\\(scel-unit-test.*\\.sc\\)\\*\\*\\*)")
 
+;;; _documentOpen
+
 (push
  (list "_documentOpen new with 0 args"
        (lambda ()
 	 (concat "Document.open(\"" (make-temp-name "scel-unit-test") ".sc\")"))
        (lambda (res)
-	 (and (string-match scel-unit-test-file-result res)
-	      (get-buffer (substring res (nth 2 (match-data))
-				     (nth 3 (match-data)))))))
+	 (list
+	  "return value is correct"
+	  (string-match scel-unit-test-file-result res)
+	  "buffer exists"
+	  (get-buffer (substring res (nth 2 (match-data))
+				 (nth 3 (match-data)))))))
  scel-unit-tests)
 
 (push
@@ -24,9 +29,12 @@
 	 (concat "Document.open(\""
 		 (make-temp-name "scel-unit-test") ".sc\", 100)"))
        (lambda (res)
-	 (and (string-match scel-unit-test-file-result res)
-	      (get-buffer (substring res (nth 2 (match-data))
-				     (nth 3 (match-data)))))))
+	 (list
+	  "return value is correct"
+	  (string-match scel-unit-test-file-result res)
+	  "buffer exists"
+	  (get-buffer (substring res (nth 2 (match-data))
+				 (nth 3 (match-data)))))))
  scel-unit-tests)
 
 (push
@@ -35,10 +43,14 @@
 	 (concat "Document.open(\""
 		 (make-temp-name "scel-unit-test") ".sc\", 100, 10)"))
        (lambda (res)
-	 (and (string-match scel-unit-test-file-result res)
-	      (setq scel-unit-test-file (substring res (nth 2 (match-data))
-					   (nth 3 (match-data))))
-	      (get-buffer scel-unit-test-file))))
+	 (list
+	  "return value is correct"
+	  (string-match scel-unit-test-file-result res)
+	  "buffer exists"
+	  (setq scel-unit-test-file (substring res (nth 2 (match-data))
+					       (nth 3 (match-data))))
+	  "buffer assigned"
+	  (get-buffer scel-unit-test-file))))
  scel-unit-tests)
 
 (push
@@ -51,10 +63,13 @@
 	 (concat "Document.open(\"" scel-unit-test-file "\")"))
        (lambda (res)
 	 (with-current-buffer scel-unit-test-file
-	   (and (string-match scel-unit-test-file-result res)
-		(equal "0123456789"
-		       (buffer-substring-no-properties 1 (point-max)))
-		(kill-buffer)))))
+	   (list
+	    "return value is correct"
+	    (string-match scel-unit-test-file-result res)
+	    "correct file contents"
+	    (equal "0123456789"
+		   (buffer-substring-no-properties 1 (point-max)))
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
@@ -63,10 +78,13 @@
 	(concat "Document.open(\"" scel-unit-test-file "\", 5)"))
        (lambda (res)
 	 (with-current-buffer scel-unit-test-file
-	   (and (string-match scel-unit-test-file-result res)
-		(equal "5"
-		       (buffer-substring-no-properties (point) (+ 1 (point))))
-		(kill-buffer)))))
+	   (list
+	    "return value is correct"
+	    (string-match scel-unit-test-file-result res)
+	    "position set properly"
+	    (equal "5"
+		   (buffer-substring-no-properties (point) (+ 1 (point))))
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
@@ -75,24 +93,68 @@
 	 (concat "Document.open(\"" scel-unit-test-file "\", 5, 4)"))
        (lambda (res)
 	 (with-current-buffer scel-unit-test-file
-	   (and (string-match scel-unit-test-file-result res)
-		(equal "5678"
-		       (buffer-substring-no-properties (point) (mark)))
-		;(kill-buffer)))))
-		))))
+	   (list
+	    "return value is correct"
+	    (string-match scel-unit-test-file-result res)
+	    "region activated properly"
+	    (equal "5678"
+		   (buffer-substring-no-properties (point) (mark)))
+	    (kill-buffer)))))
  scel-unit-tests)
+
+;;; _documentNew
+
+(push
+ (list "_documentNew no args"
+       (lambda () "Document.new()")
+       (lambda (res)
+	 (with-current-buffer "Untitled"
+	   (list
+	    "return value is correct"
+	    (string-match "a ScelDocument(\\*\\*\\*Untitled\\*\\*\\*)" res)
+	    "postbuffer has not been redefined"
+	    (not (equal (sclang-get-post-buffer) (get-buffer "Untitled")))
+	    ;; this test fails - not sure why? a timing issue?
+	    "buffer has been made visible"
+	    (> buffer-display-count 0)
+	    (kill-buffer)))))
+ scel-unit-tests)
+
+(push
+ (list "_documentNew all args"
+       (lambda ()
+	 "Document.new(\"Also Untitled\", \"0123456789\", true, false)")
+       (lambda (res)
+	 (with-current-buffer "Also Untitled"
+	   (list
+	    "buffer name"
+	    (string-match "a ScelDocument(\\*\\*\\*Also Untitled\\*\\*\\*"
+			  res)
+	    "buffer contents"
+	    (equal "0123456789"
+		   (buffer-substring-no-properties 1 (point-max)))
+	    ;; reassign post buffer is failing
+	    "postbuffer"
+	    (equal (sclang-get-post-buffer) (get-buffer "Also Untitled"))
+	    "not visible"
+	    (= buffer-display-count 0)
+	    (kill-buffer)))))
+ scel-unit-tests)
+
 
 (push
  (list "cleanup"
        (lambda ())
        (lambda (res)
 	 (delete-file scel-unit-test-file)
-	 t))
+	 '(t)))
  scel-unit-tests)
+
+(setq scel-unit-tests (nreverse scel-unit-tests))
 
 (defun scel-run-all-unit-tests ()
   (interactive)
-  (setq scel-all-unit-tests (nreverse (copy-list scel-unit-tests)))
+  (setq scel-all-unit-tests scel-unit-tests)
   (scel-run-unit-tests))
 
 (defun scel-run-unit-tests ()
@@ -104,7 +166,7 @@
 	(if (not scel-failed-tests)
 	    (message "Unit tests done, all passed.")
 	  (dolist (test scel-failed-tests)
-	    (warn "Test for %S failed." test)))
+	    (lwarn '(sclang) :emergency "failed unit test %s" test)))
       (message "Starting unit test for %S" (car unit-test))
       (setq handler (car unit-test)
 	    command (cadr unit-test)
@@ -113,10 +175,13 @@
       (sclang-eval-string-with-hook
        command-str
        `(lambda (result)
-	  (if ( not (funcall ,test result))
-	    (push '(,handler ,command-str result) scel-failed-tests)
-	    (message "Unit test for %S passed." ',handler)
+	  (let ((test-results (funcall ,test result)))
+	    (if (not (apply 'every (list 'identity test-results)))
+		(push (format "%S\n%S\n%S\n%S\n" ,handler ,command-str result
+			      test-results)
+		      scel-failed-tests)
+	      (message "Unit test for %S passed." ',handler))
 	    (scel-run-unit-tests))))))
-  "")
+    "")
 
 (provide 'scel-unit-tests)
