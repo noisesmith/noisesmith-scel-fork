@@ -3,6 +3,7 @@
 (defvar scel-unit-tests '())
 (defvar scel-all-unit-tests)
 (defvar scel-unit-test-file)
+(defvar scel-failed-tests '())
 
 (defvar scel-unit-test-file-result
   "a ScelDocument(\\*\\*\\*\\(scel-unit-test.*\\.sc\\)\\*\\*\\*)")
@@ -77,7 +78,8 @@
 	   (and (string-match scel-unit-test-file-result res)
 		(equal "5678"
 		       (buffer-substring-no-properties (point) (mark)))
-		(kill-buffer)))))
+		;(kill-buffer)))))
+		))))
  scel-unit-tests)
 
 (push
@@ -94,10 +96,15 @@
   (scel-run-unit-tests))
 
 (defun scel-run-unit-tests ()
+;; run the next test in the list, and when it's callback is finalized,
+;; tail call this function again.
   (let ((unit-test (pop scel-all-unit-tests))
 	 handler command command-str test)
     (if (not unit-test)
-	(message "Unit tests done, all passed.")
+	(if (not scel-failed-tests)
+	    (message "Unit tests done, all passed.")
+	  (dolist (test scel-failed-tests)
+	    (warn "Test for %S failed." test)))
       (message "Starting unit test for %S" (car unit-test))
       (setq handler (car unit-test)
 	    command (cadr unit-test)
@@ -106,11 +113,10 @@
       (sclang-eval-string-with-hook
        command-str
        `(lambda (result)
-	  (if (funcall ,test result)
-	      (progn (message "Unit test for %S passed." ',handler)
-		     (scel-run-unit-tests))
-	    (error "%S handler test failed on %S with %S"
-		   ',handler ,command-str result))))))
+	  (if ( not (funcall ,test result))
+	    (push '(,handler ,command-str result) scel-failed-tests)
+	    (message "Unit test for %S passed." ',handler)
+	    (scel-run-unit-tests))))))
   "")
 
 (provide 'scel-unit-tests)
