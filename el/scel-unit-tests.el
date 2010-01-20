@@ -141,6 +141,20 @@
 	    (kill-buffer)))))
  scel-unit-tests)
 
+(push
+ (list "_documentClose"
+       (lambda ()
+	 (pop-to-buffer (get-buffer-create "testdoc.sc"))
+	 (sclang-mode)
+	 "Document.current.prclose")
+       (lambda (res)
+	 (list
+	  "buffer is closed"
+	  (not (get-buffer "testdoc.sc")))))
+ scel-unit-tests)
+   
+	   
+
 ;(push
  ;(list "_documentRename"
   ;     (lambda ()

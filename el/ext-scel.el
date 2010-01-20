@@ -100,13 +100,13 @@ For reading or modifying the string from sclang, use the variable sclang-reply-s
 (defun sclang-apply-any-hooks-rec (string result)
   (let (this-start this-end this-match next-result next-start key)
     (if (not (string-match "\\[ scel_emacs_callback, " string))
-	result
+	string
       (setq this-start (match-beginning 0))
-      (unless (string-match ", end_scel_emacs_callback \\]"
+      (unless (string-match ", end_scel_emacs_callback \\]\n"
 			    (substring string this-start))
 	(error "Partial callback data in sclang-apply-any-hooks-rec %S"
 	       (substring string this-start)))
-      (setq this-end (+ (match-beginning 0) 1) next-start (match-end 0))
+      (setq this-end (+ (match-beginning 0) 1) next-start (+ (match-end 0) 1))
       (setq this-match (substring string this-start this-end))
       (unless (string-match "\\([0-9]+\\), \\(.*\\)" this-match)
 	(error
@@ -114,9 +114,10 @@ For reading or modifying the string from sclang, use the variable sclang-reply-s
 	 this-match))
       (setq key (read (match-string 1 this-match)))
       (setq result (concat
+		    result
+		    (substring string 0 this-start)
 		    (funcall (cadr (assoc key sclang-callback-stack))
-			     (match-string 2 this-match))
-		    result))
+			     (match-string 2 this-match))))
       (setq sclang-callback-stack (assq-delete-all key sclang-callback-stack))
       (sclang-apply-any-hooks-rec (substring string next-start) result))))
 
