@@ -144,24 +144,42 @@
 (push
  (list "_documentClose"
        (lambda ()
-	 (pop-to-buffer (get-buffer-create "testdoc.sc"))
-	 (sclang-mode)
-	 "Document.current.prclose")
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	   "Document.current.prclose"))
        (lambda (res)
 	 (list
 	  "buffer is closed"
 	  (not (get-buffer "testdoc.sc")))))
  scel-unit-tests)
-   
-	   
 
-;(push
- ;(list "_documentRename"
-  ;     (lambda ()
-;	 (
-;	 (with-current-buffer 
-;	 "~doc = Document.current"
+(push
+ (list "_documentRename"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	   "Document.current.title_(Document.current.title++\"renamed.sc\");"))
+       (lambda (res)
+	 (list
+	  "buffer is renamed"
+	  (get-buffer "testdoc.screnamed.sc"))))
+ scel-unit-tests)
 
+(push
+ (list "_documentSetEditable"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	 "Document.current.editable_(false);"))
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list
+	    "buffer is read only"
+	    (eq buffer-read-only t)))))
+ scel-unit-tests)
 
 (push
  (list "cleanup"
@@ -186,8 +204,8 @@
     (if (not unit-test)
 	(if (not scel-failed-tests)
 	    (message "Unit tests done, all passed.")
-	  (dolist (test scel-failed-tests)
-	    (lwarn '(sclang) :emergency "failed unit test %s" test)))
+	  (dolist (test (nreverse scel-failed-tests))
+	    (lwarn '(sclang) :error "failed unit test %s" test)))
       (message "Starting unit test for %S" (car unit-test))
       (setq handler (car unit-test)
 	    command (cadr unit-test)
