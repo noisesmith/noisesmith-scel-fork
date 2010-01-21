@@ -563,9 +563,11 @@ Returns the column to indent to."
 
 (sclang-set-command-handler
  '_documentClose
- (lambda (arg)
-   (let ((doc (and (integerp arg) (sclang-get-document arg))))
-     (and doc (kill-buffer doc)))
+ (lambda (id)
+   (let ((doc (and (integerp id) (sclang-get-document id))))
+     (unless doc (lwarn '(sclang) :error
+			"invalid doc id in _documentClose handler %S" id))
+     (when doc (kill-buffer doc)))
    nil))
 
 (sclang-set-command-handler
@@ -574,6 +576,8 @@ Returns the column to indent to."
    (multiple-value-bind (id name) arg
      (when (stringp name)
        (let ((doc (and (integerp id) (sclang-get-document id))))
+	 (unless doc (lwarn '(sclang) :error
+			    "invalid doc id in _documentRename handler %S" id))
 	 (when doc
 	   (with-current-buffer doc
 	     (rename-buffer name t)
@@ -585,6 +589,9 @@ Returns the column to indent to."
  (lambda (arg)
    (multiple-value-bind (id flag) arg
      (let ((doc (and (integerp id) (sclang-get-document id))))
+       (unless doc (lwarn '(sclang) :error
+			  "invalid doc id in _documentSetEditable handler %S"
+			  id))
        (when doc
 	 (with-current-buffer doc
 	   (setq buffer-read-only (not flag))
@@ -593,9 +600,11 @@ Returns the column to indent to."
 
 (sclang-set-command-handler
  '_documentSwitchTo
- (lambda (arg)
-   (let ((doc (and (integerp arg) (sclang-get-document arg))))
-     (and doc (switch-to-buffer doc)))
+ (lambda (id)
+   (let ((doc (and (integerp id) (sclang-get-document id))))
+     (unless doc (lwarn '(sclang) :debug
+			"invalid doc id in _documentSwitchTo handler %S" id))
+     (when doc (switch-to-buffer doc)))
    nil))
 
 (sclang-set-command-handler
@@ -618,9 +627,11 @@ Returns the column to indent to."
 
 (sclang-set-command-handler
  '_documentPopTo
- (lambda (arg)
-   (let ((doc (and (integerp arg) (sclang-get-document arg))))
-     (and doc (display-buffer doc)))
+ (lambda (id)
+   (let ((doc (and (integerp id) (sclang-get-document id))))
+     (unless doc (lwarn '(sclang) :error
+			"invalid doc id in _documentPopTo handler %S" id))
+     (when doc (display-buffer doc)))
    nil))
 
 
@@ -649,8 +660,8 @@ Returns the column to indent to."
    (let ((doc (and (integerp (car arg)) (sclang-get-document (car arg))))
 	 (specs (cdr arg))
 	 results)
-     (unless doc
-       (error "invalid document id from sclang in info handler"))
+     (unless doc (lwarn '(sclang) :error
+			"invalid doc id in _info handler %S" (car arg)))
      (when doc
        (with-current-buffer doc
 	 (while specs
@@ -710,7 +721,8 @@ Returns the column to indent to."
 				  (frame-pixel-height frame))
 			  results)))
 		 (t
-		  (warn "unmatched request in emacs sclang info handler %S"
+		  (lwarn '(sclang) :warning
+			 "unmatched request in emacs sclang info handler %S"
 			(push (pop specs) results)))))))
      (if (= (length results) 1)
 	 (car results)
@@ -722,8 +734,8 @@ Returns the column to indent to."
    (multiple-value-bind (id range-start range-size) arg
      (let ((doc (and (integerp id) (sclang-get-document id)))
 	   (range-end (+ range-start range-size)))
-       (unless doc
-	 (error "invalid document id from sclang in selectRange handler"))
+       (unless doc (lwarn '(sclang) :error
+			  "invalid doc id in _selectRange handler %S" id))
        (when doc
 	 (switch-to-buffer (get-buffer doc))
 	 (mapc (lambda (sym)
@@ -741,9 +753,10 @@ Returns the column to indent to."
  (lambda (arg)
    (multiple-value-bind (id line) arg
      (let ((doc (and (integerp id) (sclang-get-document id))))
-       (unless doc
-	 (error "invalid document id from sclang in selectLine handler"))
-       (unless (integerp line) (error "line is not an integer"))
+       (unless doc (lwarn '(sclang) :error
+			  "invalid doc id in _selectLine handler %S" id))
+       (unless (integerp line)
+	 (lwarn '(sclang) :error "line is not an integer"))
        (when doc
 	 (switch-to-buffer (get-buffer doc))
 	 (goto-line line)
@@ -759,7 +772,8 @@ Returns the column to indent to."
      (let ((doc (and (integerp id) (sclang-get-document id)))
 	   frame)
        (unless doc
-	 (error "invalid document id from sclang in bounds_ handler"))
+	 (lwarn '(sclang) :error
+		"invalid document id from sclang in _bounds_ handler %S" id))
        (if (not (get-buffer-window doc))
 	   (pop-to-buffer doc))
        (setq frame (window-frame (get-buffer-window doc)))
@@ -774,7 +788,8 @@ Returns the column to indent to."
    (multiple-value-bind (id pos string) arg
      (let ((doc (and (integerp id) (sclang-get-document id))))
        (unless doc
-	 (error "invalid document id from sclang in insertText handler"))
+	 (lwarn '(sclang) :error
+		"invalid document id from sclang in _insertText handler %S" id))
        (with-current-buffer doc
 	 (goto-char pos)
 	 (insert string))))))
@@ -785,7 +800,9 @@ Returns the column to indent to."
    (multiple-value-bind (id string start size) arg
      (let ((doc (and (integerp id) (sclang-get-document id))))
        (unless doc
-	 (error "invalid document id from sclang in insertTextRange handler"))
+	 (lwarn
+	  '(sclang) :error
+	  "invalid document id from sclang in _insertTextRange handler %S" id))
        (with-current-buffer doc
 	 (kill-region start (+ start size))
 	 (goto-char start)
@@ -841,7 +858,9 @@ Returns the column to indent to."
 			  (floor (* g 255))
 			  (floor (* b 255)))))
        (unless doc
-	 (error "invalid document id from sclang in background_ handler"))
+	 (lwarn '(sclang) :error
+		"invalid document id from sclang in _background_ handler %S"
+		id))
        (with-current-buffer doc
 	 (sclang-overlay-range '(:background) (list color) 1 (point-max)))))))
 
@@ -856,7 +875,8 @@ Returns the column to indent to."
 			  (floor (* b 255))))
 	   start end)
        (unless doc
-	 (error "invalid document id from sclang in textColor_ handler"))
+	 (lwarn '(sclang) :error
+		"invalid document id from sclang in _textColor_ handler %S" id))
        (with-current-buffer (get-buffer doc)
 	 (setq start (min (+ range-start range-size) range-start))
 	 (setq end (if (= range-size 0) (point-max)
@@ -874,7 +894,8 @@ Returns the column to indent to."
 	  attrs
 	  props)
       (unless doc
-	(error "invalid document id from sclang in font_ handler"))
+	(lwarn '(sclang) :error
+	       "invalid document id from sclang in _font_ handler %S" id))
       (dolist (prop  (list family height
 			   (when weight (read weight))
 			   (when slant (read slant))
@@ -897,8 +918,8 @@ Returns the column to indent to."
 	   start
 	   end)
        (unless doc
-	 (error
-	  "invalid document id from sclang in documentSyntaxColorize handler"))
+	 (lwarn '(sclang) :error
+	  "invalid document id in _documentSyntaxColorize handler %S" id))
        (save-excursion
 	 (with-current-buffer (get-buffer doc)
 	   (setq start (min (point-max) (max 1 range-start)))

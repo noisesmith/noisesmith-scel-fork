@@ -8,6 +8,40 @@
 (defvar scel-unit-test-file-result
   "a ScelDocument(\\*\\*\\*\\(scel-unit-test.*\\.sc\\)\\*\\*\\*)")
 
+;;; these next two functions are the main engine of the testing system
+(defun scel-run-all-unit-tests ()
+  (interactive)
+  (setq scel-all-unit-tests scel-unit-tests)
+  (scel-run-unit-tests))
+
+(defun scel-run-unit-tests ()
+;; run the next test in the list, and when it's callback is finalized,
+;; tail call this function again.
+  (let ((unit-test (pop scel-all-unit-tests))
+	 handler command command-str test)
+    (if (not unit-test)
+	(if (not scel-failed-tests)
+	    (message "Unit tests done, all passed.")
+	  (dolist (test (nreverse scel-failed-tests))
+	    (lwarn '(sclang) :warning "failed unit test %s" test)))
+      (message "Starting unit test for %S" (car unit-test))
+      (setq handler (car unit-test)
+	    command (cadr unit-test)
+	    command-str (funcall command)
+	    test (caddr unit-test))
+      (sclang-eval-string-with-hook
+       command-str
+       `(lambda (result)
+	  (let ((test-results (funcall ,test result)))
+	    (if (not (apply 'every (list 'identity test-results)))
+		(push (format "%S\n%S\n%S\n%S\n" ,handler ,command-str result
+			      test-results)
+		      scel-failed-tests)
+	      (message "Unit test for %S passed." ',handler))
+	    (scel-run-unit-tests))))))
+    "")
+
+
 ;;; _documentOpen
 
 (push
@@ -114,8 +148,8 @@
 	    (string-match "a ScelDocument(\\*\\*\\*Untitled\\*\\*\\*)" res)
 	    "postbuffer has not been redefined"
 	    (not (equal (sclang-get-post-buffer) (get-buffer "Untitled")))
-	    ;; this test fails, why?
 	    "buffer has been made visible"
+	    ;; this sit-for is neccessary -- because?
 	    (progn (sit-for 0.2) (> buffer-display-count 0))
 	    (kill-buffer)))))
  scel-unit-tests)
@@ -197,6 +231,8 @@
 	    (> buffer-display-count 0)))))
  scel-unit-tests)
 
+;;; _documentPutString
+
 (push
  (list "_documentPutString one arg"
        (lambda ()
@@ -252,6 +288,23 @@
  scel-unit-tests)
 
 (push
+ (list "_documentPopTo"
+       (lambda ()
+	 (delete-other-frames)
+	 (delete-other-windows)
+	 (display-buffer "*scratch*")
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
+	   "Document.current.unfocusedFront"))
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list
+	    "buffer visible"
+	    (> buffer-display-count 0)))))
+ scel-unit-tests)
+
+(push
  (list "cleanup"
        (lambda ())
        (lambda (res)
@@ -261,36 +314,5 @@
 
 (setq scel-unit-tests (nreverse scel-unit-tests))
 
-(defun scel-run-all-unit-tests ()
-  (interactive)
-  (setq scel-all-unit-tests scel-unit-tests)
-  (scel-run-unit-tests))
-
-(defun scel-run-unit-tests ()
-;; run the next test in the list, and when it's callback is finalized,
-;; tail call this function again.
-  (let ((unit-test (pop scel-all-unit-tests))
-	 handler command command-str test)
-    (if (not unit-test)
-	(if (not scel-failed-tests)
-	    (message "Unit tests done, all passed.")
-	  (dolist (test (nreverse scel-failed-tests))
-	    (lwarn '(sclang) :error "failed unit test %s" test)))
-      (message "Starting unit test for %S" (car unit-test))
-      (setq handler (car unit-test)
-	    command (cadr unit-test)
-	    command-str (funcall command)
-	    test (caddr unit-test))
-      (sclang-eval-string-with-hook
-       command-str
-       `(lambda (result)
-	  (let ((test-results (funcall ,test result)))
-	    (if (not (apply 'every (list 'identity test-results)))
-		(push (format "%S\n%S\n%S\n%S\n" ,handler ,command-str result
-			      test-results)
-		      scel-failed-tests)
-	      (message "Unit test for %S passed." ',handler))
-	    (scel-run-unit-tests))))))
-    "")
 
 (provide 'scel-unit-tests)
