@@ -221,14 +221,18 @@ EmacsDocument
 	selectRange { | start = 0, length = 0 |
 		Emacs.sendToLisp(\_selectRange, [this, start, length]);
 	}
+
 	prisEditable_{ | flag = true |
 		Emacs.sendToLisp(\_documentSetEditable, [this, flag]);
 	}
+
 	removeUndo{
 		Emacs.sendToLisp(\_documentRemoveUndo, this);
 	}
+
 	string_{|string, rangestart = -1, rangesize = 1|
-		Emacs.sendToLisp( \_documentPutString, [ this, string ] );
+		Emacs.sendToLisp( \_documentPutString,
+			[ this, string, rangestart, rangesize ] );
 	}
 
 	// environment support

@@ -114,9 +114,9 @@
 	    (string-match "a ScelDocument(\\*\\*\\*Untitled\\*\\*\\*)" res)
 	    "postbuffer has not been redefined"
 	    (not (equal (sclang-get-post-buffer) (get-buffer "Untitled")))
-	    ;; this test fails - not sure why? a timing issue?
+	    ;; this test fails, why?
 	    "buffer has been made visible"
-	    (> buffer-display-count 0)
+	    (progn (sit-for 0.2) (> buffer-display-count 0))
 	    (kill-buffer)))))
  scel-unit-tests)
 
@@ -134,7 +134,7 @@
 	    (equal "0123456789"
 		   (buffer-substring-no-properties 1 (point-max)))
 	    ;; reassign post buffer is failing
-	    "postbuffer"
+	    "set as postbuffer"
 	    (equal (sclang-get-post-buffer) (get-buffer "Also Untitled"))
 	    "not visible"
 	    (= buffer-display-count 0)
@@ -146,7 +146,7 @@
        (lambda ()
 	 (with-current-buffer (get-buffer-create "testdoc.sc")
 	   (sclang-mode)
-	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
 	   "Document.current.prclose"))
        (lambda (res)
 	 (list
@@ -159,7 +159,7 @@
        (lambda ()
 	 (with-current-buffer (get-buffer-create "testdoc.sc")
 	   (sclang-mode)
-	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
 	   "Document.current.title_(Document.current.title++\"renamed.sc\");"))
        (lambda (res)
 	 (list
@@ -172,13 +172,83 @@
        (lambda ()
 	 (with-current-buffer (get-buffer-create "testdoc.sc")
 	   (sclang-mode)
-	   (sclang-set-current-document (get-buffer "testdoc.sc"))
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
 	 "Document.current.editable_(false);"))
        (lambda (res)
 	 (with-current-buffer "testdoc.sc"
 	   (list
 	    "buffer is read only"
-	    (eq buffer-read-only t)))))
+	    (eq buffer-read-only t)
+	    (kill-buffer)))))
+ scel-unit-tests)
+
+(push
+ (list "_documentSwitchTo"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t))
+	 (switch-to-buffer "*scratch*")
+	 (delete-other-windows)
+	 "Document.current.front;")
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list
+	    (> buffer-display-count 0)))))
+ scel-unit-tests)
+
+(push
+ (list "_documentPutString one arg"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (erase-buffer)
+	   (insert "old")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
+	   "Document.current.string_(\"new\");"))
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list ; failing during test, but succeeds if run on its own
+	    "newld"
+	    (buffer-substring-no-properties 1 (point-max))
+	    "contents of buffer correct"
+	    (equal "newld" (buffer-substring-no-properties 1 (point-max)))))))
+ scel-unit-tests)
+
+(push
+ (list "_documentPutString two args"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (erase-buffer)
+	   (insert "old")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
+	   "Document.current.string_(\"new\", 1);"))
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list
+	    "onewd"
+	    (buffer-substring-no-properties 1 (point-max))
+	    "contents of buffer correct"
+	    (equal "onewd" (buffer-substring-no-properties 1 (point-max)))))))
+ scel-unit-tests)
+
+(push
+ (list "_documentPutString three args"
+       (lambda ()
+	 (with-current-buffer (get-buffer-create "testdoc.sc")
+	   (erase-buffer)
+	   (insert "old")
+	   (sclang-mode)
+	   (sclang-set-current-document (get-buffer "testdoc.sc") t)
+	   "Document.current.string_(\"new\", 0, 3);"))
+       (lambda (res)
+	 (with-current-buffer "testdoc.sc"
+	   (list
+	    "new"
+	    (buffer-substring-no-properties 1 (point-max))
+	    "contents of buffer correct"
+	    (equal "new" (buffer-substring-no-properties 1 (point-max)))))))
  scel-unit-tests)
 
 (push

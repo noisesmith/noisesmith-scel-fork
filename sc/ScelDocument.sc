@@ -55,10 +55,17 @@ ScelDocument : Document{
 
 	init{ |title, string, makeListener, toFront|
 		//		"ScelDocument.init".postln;
-		checkCurrent = { |doc| if ( EmacsDocument.current === doc, { this.didBecomeKey } ); };
+		checkCurrent = { |doc|
+			if ( EmacsDocument.current === doc,
+				{ this.didBecomeKey } ) };
 		cFuncs = [checkCurrent];
 		title_p = title;
-		EmacsDocument.prNewFromString(title, string, makeListener, { |doc| thisdoc = doc; thisdoc.sceld = this; cFuncs.do{ |it| it.value(doc)} });
+		EmacsDocument.prNewFromString(title, string, makeListener,
+			{ |doc|
+				thisdoc = doc;
+				thisdoc.sceld = this;
+				cFuncs.do{ |it| it.value(doc)}
+			});
 		if ( toFront, { this.front } );
 		^this
 	}
@@ -266,6 +273,7 @@ ScelDocument : Document{
 	text {
 		^this.string;
 	}
+
 	rangeText { arg rangestart=0, rangesize=1;
 		^this.string( rangestart, rangesize );
 	}

@@ -441,7 +441,8 @@ Returns the column to indent to."
 (defconst sclang-document-property-map
   '((sclang-document-name . (prSetTitle (buffer-name)))
     (sclang-document-path . (prSetFileName (buffer-file-name)))
-    (sclang-document-listener-p . (prSetIsListener (eq (current-buffer) (sclang-get-post-buffer))))
+    (sclang-document-listener-p
+     . (prSetIsListener (eq (current-buffer) (sclang-get-post-buffer))))
     (sclang-document-editable-p . (prSetEditable (not buffer-read-only)))
     (sclang-document-edited-p . (prSetEdited (buffer-modified-p)))))
 
@@ -600,12 +601,20 @@ Returns the column to indent to."
 (sclang-set-command-handler
  '_documentPutString
  (lambda (arg)
-   (multiple-value-bind (id str) arg
-     (let ((doc (and (integerp id) (sclang-get-document id))))
+   (multiple-value-bind (id str start range) arg
+     (let ((doc (and (integerp id) (sclang-get-document id))) end)
+       (unless doc (lwarn '(sclang) :error
+			  "invalid doc id in _documentPutString handler %S" id))
        (when doc
 	 (with-current-buffer doc
-	   (insert str))
-	 nil)))))
+	   (setq start (min (+ start 1) (point-max)))
+	   (setq start (max 1 start))
+	   (setq end (if (< range 0) (point-max)
+		       (min (+ start range) (point-max))))
+	   (goto-char start)
+	   (kill-region start end)
+	   (insert str)))
+       nil))))
 
 (sclang-set-command-handler
  '_documentPopTo
