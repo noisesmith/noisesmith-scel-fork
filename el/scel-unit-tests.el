@@ -204,7 +204,8 @@
        (lambda (res)
 	 (list
 	  "buffer is renamed"
-	  (get-buffer "testdoc.screnamed.sc"))))
+	  (and (get-buffer "testdoc.screnamed.sc")
+	       (kill-buffer "testdoc.screnamed.sc")))))
  scel-unit-tests)
 
 (push
@@ -234,7 +235,9 @@
        (lambda (res)
 	 (with-current-buffer "testdoc.sc"
 	   (list
-	    (> buffer-display-count 0)))))
+	    "buffer is visible"
+	    (> buffer-display-count 0)
+	    (kill-buffer)))))
  scel-unit-tests)
 
 ;;; _documentPutString
@@ -254,7 +257,8 @@
 	    "newld"
 	    (buffer-substring-no-properties 1 (point-max))
 	    "contents of buffer correct"
-	    (equal "newld" (buffer-substring-no-properties 1 (point-max)))))))
+	    (equal "newld" (buffer-substring-no-properties 1 (point-max)))
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
@@ -272,7 +276,8 @@
 	    "onewd"
 	    (buffer-substring-no-properties 1 (point-max))
 	    "contents of buffer correct"
-	    (equal "onewd" (buffer-substring-no-properties 1 (point-max)))))))
+	    (equal "onewd" (buffer-substring-no-properties 1 (point-max)))
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
@@ -290,7 +295,8 @@
 	    "new"
 	    (buffer-substring-no-properties 1 (point-max))
 	    "contents of buffer correct"
-	    (equal "new" (buffer-substring-no-properties 1 (point-max)))))))
+	    (equal "new" (buffer-substring-no-properties 1 (point-max)))
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
@@ -307,7 +313,8 @@
 	 (with-current-buffer "testdoc.sc"
 	   (list
 	    "buffer visible"
-	    (> buffer-display-count 0)))))
+	    (> buffer-display-count 0)
+	    (kill-buffer)))))
  scel-unit-tests)
 
 (push
