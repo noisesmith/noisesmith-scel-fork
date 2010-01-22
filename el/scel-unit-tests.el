@@ -11,6 +11,7 @@
 ;;; these next two functions are the main engine of the testing system
 (defun scel-run-all-unit-tests ()
   (interactive)
+  ;; this is so that the pops in scel-run-unit-tests do not destroy the original
   (setq scel-all-unit-tests scel-unit-tests)
   (scel-run-unit-tests))
 
@@ -41,7 +42,6 @@
 	    (scel-run-unit-tests))))))
     "")
 
-
 ;;; _documentOpen
 
 (push
@@ -53,8 +53,11 @@
 	  "return value is correct"
 	  (string-match scel-unit-test-file-result res)
 	  "buffer exists"
-	  (get-buffer (substring res (nth 2 (match-data))
-				 (nth 3 (match-data)))))))
+	  (and (get-buffer (substring res (nth 2 (match-data))
+				      (nth 3 (match-data))))
+	       (with-current-buffer (substring res (nth 2 (match-data))
+					       (nth 3 (match-data)))
+		 (kill-buffer))))))
  scel-unit-tests)
 
 (push
@@ -67,8 +70,11 @@
 	  "return value is correct"
 	  (string-match scel-unit-test-file-result res)
 	  "buffer exists"
-	  (get-buffer (substring res (nth 2 (match-data))
-				 (nth 3 (match-data)))))))
+	  (and (get-buffer (substring res (nth 2 (match-data))
+				      (nth 3 (match-data))))
+	       (with-current-buffer (substring res (nth 2 (match-data))
+					       (nth 3 (match-data)))
+		 (kill-buffer))))))
  scel-unit-tests)
 
 (push
